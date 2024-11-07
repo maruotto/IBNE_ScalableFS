@@ -1,0 +1,1838 @@
+IGNORING UNDEFINED METRIC WARNING
+****************************************
+             SUBJECTS
+****************************************
+Total subjects:  128 with 0 na patients
+****************************************
+                 muscle
+****************************************
+correct imported samples: 128 
+over a total of: 128
+****************************************
+                 DATASET
+****************************************
+Total samples useful to purpose: 128
+Proneness index analyzed 1
+Category 0 76
+Category 1 52
+sum check:  128 128
+Max features allowed:  50  over a total of  66
+Total samples useful to train purpose: 128
+Proneness index analyzed 1
+Category 0 61
+Category 1 41
+sum check:  102 128
+****************************************
+                TRAINING
+****************************************
+RandomForestClassifier..................................................
+Time for execution:  55
+Scoring ['Mean', 'Std']
+accuracy [0.74, 0.0875]
+f1_weighted [0.73, 0.0984]
+f1 [0.62, 0.1507]
+roc_auc [0.82, 0.0689]
+precision [0.75, 0.1253]
+recall [0.55, 0.1778]
+SVC..................................................
+Time for execution:  6
+Scoring ['Mean', 'Std']
+accuracy [0.73, 0.0624]
+f1_weighted [0.71, 0.0709]
+f1 [0.58, 0.1058]
+roc_auc [0.83, 0.079]
+precision [0.74, 0.0808]
+recall [0.49, 0.1219]
+****************************************
+             SEED 102772449
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.67272727]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+Index(['SARTORIUS_muscle_Volume', 'SARTORIUS_IMAT_STD', 'SEMIM_IMAT_Volume',
+       'GRACILIS_muscle_Volume', 'GRACILIS_IMAT_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_Volume', 'GLH_muscle_STD', 'GLH_muscle_Volume',
+       'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  12
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+2         SEMIM_IMAT_Volume    0.219231
+5   POPLITEUS_muscle_Volume    0.191431
+9            GLH_muscle_STD    0.086279
+3    GRACILIS_muscle_Volume    0.065377
+1        SARTORIUS_IMAT_STD    0.061319
+0   SARTORIUS_muscle_Volume    0.044385
+4      GRACILIS_IMAT_Volume    0.042931
+10        GLH_muscle_Volume    0.027090
+6     POPLITEUS_IMAT_Volume    0.026015
+11          GLH_IMAT_Volume    0.025972
+8         GMH_muscle_Volume    0.016092
+7         GMH_muscle_HU_Avg    0.015359
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.75151515]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SARTORIUS_IMAT_STD'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.54492566]), 'f1': array([0.35294118]), 'roc_auc': array([0.44545455]), 'precision': array([0.5]), 'recall': array([0.27272727])}
+Elapsed time:  34.639002084732056
+****************************************
+             SEED 21744986
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.77575758]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+Index(['VI_muscle_Volume', 'VL_muscle_Volume', 'VL_IMAT_Volume',
+       'BF_IMAT_Volume', 'SARTORIUS_muscle_Volume', 'SARTORIUS_IMAT_STD',
+       'SEMIM_IMAT_Volume', 'GRACILIS_muscle_Volume', 'GRACILIS_IMAT_STD',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume',
+       'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  14
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+6         SEMIM_IMAT_Volume    0.190878
+1          VL_muscle_Volume    0.121482
+12           GLH_muscle_STD    0.105816
+13        GLH_muscle_Volume    0.079077
+10    POPLITEUS_IMAT_Volume    0.078069
+2            VL_IMAT_Volume    0.071461
+11        GMH_muscle_Volume    0.046411
+3            BF_IMAT_Volume    0.039457
+9   POPLITEUS_muscle_Volume    0.035313
+5        SARTORIUS_IMAT_STD    0.033464
+4   SARTORIUS_muscle_Volume    0.028948
+0          VI_muscle_Volume    0.023909
+7    GRACILIS_muscle_Volume    0.019510
+8         GRACILIS_IMAT_STD    0.018206
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.73939394]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VL_muscle_Volume', 'POPLITEUS_IMAT_Volume'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.66060606]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Elapsed time:  34.73330307006836
+****************************************
+             SEED 57857517
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.78787879]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+Index(['VI_muscle_Volume', 'VL_muscle_Volume', 'BF_muscle_Volume',
+       'SARTORIUS_muscle_STD', 'SARTORIUS_IMAT_STD', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_STD', 'SEMIM_IMAT_Volume',
+       'GRACILIS_muscle_Volume', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume', 'GMH_IMAT_STD',
+       'GLH_muscle_HU_Avg', 'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  17
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+8         SEMIM_IMAT_Volume    0.198491
+10  POPLITEUS_muscle_Volume    0.121323
+11    POPLITEUS_IMAT_Volume    0.076389
+12        GMH_muscle_Volume    0.066413
+15           GLH_muscle_STD    0.054543
+9    GRACILIS_muscle_Volume    0.043499
+1          VL_muscle_Volume    0.038687
+2          BF_muscle_Volume    0.037836
+5       SEMIM_muscle_HU_Avg    0.035467
+16        GLH_muscle_Volume    0.033430
+6       SEMIM_muscle_Volume    0.030106
+7            SEMIM_IMAT_STD    0.026674
+3      SARTORIUS_muscle_STD    0.024291
+0          VI_muscle_Volume    0.024193
+4        SARTORIUS_IMAT_STD    0.021961
+14        GLH_muscle_HU_Avg    0.020670
+13             GMH_IMAT_STD    0.018807
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.85454545]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_muscle_Volume'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.57532051]), 'f1': array([0.375]), 'roc_auc': array([0.71515152]), 'precision': array([0.6]), 'recall': array([0.27272727])}
+Elapsed time:  49.08649706840515
+****************************************
+             SEED 62360057
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73196581]), 'f1': array([0.72]), 'roc_auc': array([0.83636364]), 'precision': array([0.64285714]), 'recall': array([0.81818182])}
+Index(['VM_muscle_STD', 'VL_muscle_Volume', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_IMAT_HU_Avg', 'SEMIM_IMAT_STD', 'SEMIM_IMAT_Volume',
+       'GRACILIS_IMAT_Volume', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_STD', 'GMH_muscle_Volume',
+       'GMH_IMAT_STD', 'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  14
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+5         SEMIM_IMAT_Volume    0.209521
+7   POPLITEUS_muscle_Volume    0.149257
+12           GLH_muscle_STD    0.071075
+13        GLH_muscle_Volume    0.065319
+10        GMH_muscle_Volume    0.064551
+11             GMH_IMAT_STD    0.036900
+6      GRACILIS_IMAT_Volume    0.032476
+0             VM_muscle_STD    0.028328
+8     POPLITEUS_IMAT_Volume    0.027818
+3         SEMIM_IMAT_HU_Avg    0.027800
+4            SEMIM_IMAT_STD    0.026897
+2       SEMIM_muscle_HU_Avg    0.023210
+1          VL_muscle_Volume    0.017819
+9            GMH_muscle_STD    0.017557
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.69230769]), 'roc_auc': array([0.80606061]), 'precision': array([0.6]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VM_muscle_STD', 'SEMIM_IMAT_HU_Avg', 'POPLITEUS_muscle_Volume'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.73939394]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+Elapsed time:  37.37126803398132
+****************************************
+             SEED 62450291
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.56275304]), 'f1': array([0.42105263]), 'roc_auc': array([0.61212121]), 'precision': array([0.5]), 'recall': array([0.36363636])}
+Index(['VI_muscle_HU_Avg', 'VI_muscle_Volume', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_IMAT_Volume', 'SEMIT_muscle_Volume', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_STD', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume',
+       'GMH_IMAT_HU_Avg', 'GMH_IMAT_STD', 'GLH_muscle_Volume',
+       'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  13
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+3         SEMIM_IMAT_Volume    0.280307
+5   POPLITEUS_muscle_Volume    0.117579
+7     POPLITEUS_IMAT_Volume    0.071359
+8         GMH_muscle_Volume    0.058637
+10             GMH_IMAT_STD    0.056351
+12          GLH_IMAT_Volume    0.048788
+1          VI_muscle_Volume    0.038878
+11        GLH_muscle_Volume    0.037163
+2       SEMIM_muscle_HU_Avg    0.036281
+4       SEMIT_muscle_Volume    0.034429
+9           GMH_IMAT_HU_Avg    0.031616
+6        POPLITEUS_IMAT_STD    0.020460
+0          VI_muscle_HU_Avg    0.018679
+{'accuracy': array([0.53846154]), 'f1_weighted': array([0.52980769]), 'f1': array([0.4]), 'roc_auc': array([0.55757576]), 'precision': array([0.44444444]), 'recall': array([0.36363636])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SEMIM_muscle_HU_Avg', 'SEMIM_IMAT_Volume', 'GMH_IMAT_STD'], dtype='object')
+{'accuracy': array([0.53846154]), 'f1_weighted': array([0.53846154]), 'f1': array([0.45454545]), 'roc_auc': array([0.66060606]), 'precision': array([0.45454545]), 'recall': array([0.45454545])}
+Elapsed time:  26.326162338256836
+****************************************
+             SEED 116237632
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.82424242]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Index(['VL_muscle_Volume', 'VL_IMAT_Volume', 'SARTORIUS_IMAT_STD',
+       'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_Volume', 'SEMIM_IMAT_Volume',
+       'GRACILIS_muscle_Volume', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg', 'GMH_muscle_Volume',
+       'GMH_IMAT_STD', 'GMH_IMAT_Volume', 'GLH_muscle_STD',
+       'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  15
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+5         SEMIM_IMAT_Volume    0.190564
+7   POPLITEUS_muscle_Volume    0.100713
+6    GRACILIS_muscle_Volume    0.084724
+14        GLH_muscle_Volume    0.072206
+8     POPLITEUS_IMAT_Volume    0.064529
+9         GMH_muscle_HU_Avg    0.049344
+0          VL_muscle_Volume    0.042036
+3       SEMIM_muscle_HU_Avg    0.037831
+13           GLH_muscle_STD    0.037384
+10        GMH_muscle_Volume    0.030259
+4       SEMIM_muscle_Volume    0.028287
+2        SARTORIUS_IMAT_STD    0.024102
+12          GMH_IMAT_Volume    0.017697
+1            VL_IMAT_Volume    0.015745
+11             GMH_IMAT_STD    0.015437
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.86060606]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_IMAT_Volume', 'GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69413919]), 'f1': array([0.66666667]), 'roc_auc': array([0.79090909]), 'precision': array([0.61538462]), 'recall': array([0.72727273])}
+Elapsed time:  35.784488916397095
+****************************************
+             SEED 65948098
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80626781]), 'f1': array([0.81481481]), 'roc_auc': array([0.89090909]), 'precision': array([0.6875]), 'recall': array([1.])}
+Index(['VM_muscle_HU_Avg', 'VI_muscle_Volume', 'BF_IMAT_Volume',
+       'SARTORIUS_muscle_HU_Avg', 'SARTORIUS_IMAT_HU_Avg',
+       'SARTORIUS_IMAT_STD', 'SEMIM_muscle_Volume', 'SEMIM_IMAT_STD',
+       'SEMIM_IMAT_Volume', 'GRACILIS_IMAT_HU_Avg', 'POPLITEUS_muscle_STD',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_Volume', 'GMH_IMAT_HU_Avg', 'GMH_IMAT_STD',
+       'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  19
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+8         SEMIM_IMAT_Volume    0.143518
+11  POPLITEUS_muscle_Volume    0.107643
+0          VM_muscle_HU_Avg    0.060805
+16             GMH_IMAT_STD    0.060689
+1          VI_muscle_Volume    0.054666
+17           GLH_muscle_STD    0.053399
+18        GLH_muscle_Volume    0.050401
+5        SARTORIUS_IMAT_STD    0.038698
+15          GMH_IMAT_HU_Avg    0.033307
+14        GMH_muscle_Volume    0.029741
+4     SARTORIUS_IMAT_HU_Avg    0.029515
+6       SEMIM_muscle_Volume    0.026917
+12    POPLITEUS_IMAT_Volume    0.026628
+10     POPLITEUS_muscle_STD    0.023144
+2            BF_IMAT_Volume    0.022538
+9      GRACILIS_IMAT_HU_Avg    0.022049
+3   SARTORIUS_muscle_HU_Avg    0.021487
+7            SEMIM_IMAT_STD    0.018916
+13        GMH_muscle_HU_Avg    0.015759
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.72121212]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_muscle_Volume'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.76060606]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+Elapsed time:  18.458697080612183
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84615385]), 'f1': array([0.81818182]), 'roc_auc': array([0.93939394]), 'precision': array([0.81818182]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_IMAT_Volume'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57378917]), 'f1': array([0.59259259]), 'roc_auc': array([0.70909091]), 'precision': array([0.5]), 'recall': array([0.72727273])}
+Elapsed time:  54.56743931770325
+****************************************
+             SEED 78385625
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.79393939]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+Index(['VI_muscle_Volume.1', 'VL_muscle_Volume', 'SARTORIUS_IMAT_STD',
+       'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_Volume', 'SEMIM_IMAT_Volume',
+       'GRACILIS_muscle_Volume', 'GRACILIS_IMAT_Volume',
+       'POPLITEUS_muscle_HU_Avg', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_STD', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume',
+       'GMH_IMAT_HU_Avg', 'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  16
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+11    POPLITEUS_IMAT_Volume    0.193537
+5         SEMIM_IMAT_Volume    0.151862
+14           GLH_muscle_STD    0.100003
+3       SEMIM_muscle_HU_Avg    0.072511
+15        GLH_muscle_Volume    0.046239
+13          GMH_IMAT_HU_Avg    0.035225
+12        GMH_muscle_Volume    0.034919
+9   POPLITEUS_muscle_Volume    0.031143
+10       POPLITEUS_IMAT_STD    0.029140
+0        VI_muscle_Volume.1    0.029055
+8   POPLITEUS_muscle_HU_Avg    0.028777
+2        SARTORIUS_IMAT_STD    0.024757
+6    GRACILIS_muscle_Volume    0.023543
+1          VL_muscle_Volume    0.019480
+7      GRACILIS_IMAT_Volume    0.017332
+4       SEMIM_muscle_Volume    0.015792
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.75151515]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_IMAT_Volume', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65118752]), 'f1': array([0.57142857]), 'roc_auc': array([0.66060606]), 'precision': array([0.6]), 'recall': array([0.54545455])}
+Elapsed time:  46.34061527252197
+****************************************
+             SEED 92247720
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57378917]), 'f1': array([0.59259259]), 'roc_auc': array([0.75151515]), 'precision': array([0.5]), 'recall': array([0.72727273])}
+Index(['VM_muscle_HU_Avg', 'VI_muscle_HU_Avg', 'VI_muscle_Volume',
+       'VL_muscle_Volume', 'VL_IMAT_Volume', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_HU_Avg', 'SEMIM_IMAT_Volume',
+       'SEMIT_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_Volume', 'GMH_IMAT_HU_Avg', 'GLH_muscle_HU_Avg',
+       'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  19
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+8         SEMIM_IMAT_Volume    0.173630
+12    POPLITEUS_IMAT_Volume    0.100835
+11  POPLITEUS_muscle_Volume    0.061443
+4            VL_IMAT_Volume    0.050938
+5       SEMIM_muscle_HU_Avg    0.050635
+14        GMH_muscle_Volume    0.048819
+18        GLH_muscle_Volume    0.044112
+13        GMH_muscle_HU_Avg    0.037754
+17           GLH_muscle_STD    0.032902
+0          VM_muscle_HU_Avg    0.032895
+7         SEMIM_IMAT_HU_Avg    0.032063
+3          VL_muscle_Volume    0.030790
+6       SEMIM_muscle_Volume    0.025896
+15          GMH_IMAT_HU_Avg    0.023604
+16        GLH_muscle_HU_Avg    0.019343
+1          VI_muscle_HU_Avg    0.018362
+9         SEMIT_IMAT_Volume    0.017431
+2          VI_muscle_Volume    0.015822
+10   GRACILIS_muscle_Volume    0.015578
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7706044]), 'f1': array([0.75]), 'roc_auc': array([0.81818182]), 'precision': array([0.69230769]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VL_IMAT_Volume', 'SEMIM_IMAT_Volume'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57880342]), 'f1': array([0.56]), 'roc_auc': array([0.62424242]), 'precision': array([0.5]), 'recall': array([0.63636364])}
+Elapsed time:  107.43814182281494
+****************************************
+             SEED 9003199
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.62766645]), 'f1': array([0.47058824]), 'roc_auc': array([0.72121212]), 'precision': array([0.66666667]), 'recall': array([0.36363636])}
+Index(['VI_muscle_HU_Avg', 'VI_muscle_STD', 'VI_muscle_Volume',
+       'VL_muscle_Volume', 'BF_muscle_Volume', 'SARTORIUS_IMAT_HU_Avg',
+       'SEMIM_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_STD', 'GMH_IMAT_HU_Avg', 'GMH_IMAT_STD', 'GLH_muscle_STD',
+       'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  16
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+6         SEMIM_IMAT_Volume    0.291192
+7    GRACILIS_muscle_Volume    0.098592
+8   POPLITEUS_muscle_Volume    0.088996
+14           GLH_muscle_STD    0.083636
+3          VL_muscle_Volume    0.054217
+2          VI_muscle_Volume    0.042354
+10        GMH_muscle_HU_Avg    0.038569
+12          GMH_IMAT_HU_Avg    0.035571
+13             GMH_IMAT_STD    0.028258
+11           GMH_muscle_STD    0.026846
+9     POPLITEUS_IMAT_Volume    0.023845
+0          VI_muscle_HU_Avg    0.020760
+4          BF_muscle_Volume    0.018918
+5     SARTORIUS_IMAT_HU_Avg    0.018612
+1             VI_muscle_STD    0.017296
+15        GLH_muscle_Volume    0.016189
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.62766645]), 'f1': array([0.47058824]), 'roc_auc': array([0.72121212]), 'precision': array([0.66666667]), 'recall': array([0.36363636])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_IMAT_Volume', 'GMH_IMAT_HU_Avg', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.56275304]), 'f1': array([0.42105263]), 'roc_auc': array([0.66060606]), 'precision': array([0.5]), 'recall': array([0.36363636])}
+Elapsed time:  52.746520042419434
+****************************************
+             SEED 69653188
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.81212121]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Index(['VM_muscle_STD', 'SEMIM_IMAT_HU_Avg', 'SEMIM_IMAT_STD',
+       'SEMIM_IMAT_Volume', 'GRACILIS_muscle_Volume', 'GRACILIS_IMAT_Volume',
+       'POPLITEUS_muscle_STD', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg', 'GMH_muscle_STD',
+       'GMH_IMAT_STD', 'GMH_IMAT_Volume', 'GLH_muscle_STD',
+       'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  15
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+7   POPLITEUS_muscle_Volume    0.129569
+3         SEMIM_IMAT_Volume    0.108324
+11             GMH_IMAT_STD    0.098205
+2            SEMIM_IMAT_STD    0.078714
+8     POPLITEUS_IMAT_Volume    0.064606
+4    GRACILIS_muscle_Volume    0.060586
+1         SEMIM_IMAT_HU_Avg    0.050503
+5      GRACILIS_IMAT_Volume    0.041326
+6      POPLITEUS_muscle_STD    0.035800
+9         GMH_muscle_HU_Avg    0.033641
+0             VM_muscle_STD    0.028911
+10           GMH_muscle_STD    0.028247
+12          GMH_IMAT_Volume    0.020798
+13           GLH_muscle_STD    0.020618
+14        GLH_muscle_Volume    0.019878
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.81212121]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SEMIM_IMAT_Volume', 'GRACILIS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_IMAT_STD'],
+      dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.73333333]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Elapsed time:  39.73405075073242
+****************************************
+             SEED 122180222
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.70909091]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+Index(['VM_muscle_HU_Avg', 'VM_IMAT_Volume', 'VL_IMAT_STD', 'VL_IMAT_Volume',
+       'BF_IMAT_STD', 'SARTORIUS_muscle_STD', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'GRACILIS_IMAT_Volume', 'POPLITEUS_muscle_HU_Avg',
+       'POPLITEUS_muscle_Volume', 'GMH_muscle_HU_Avg', 'GMH_IMAT_STD',
+       'GLH_muscle_STD', 'GLH_muscle_Volume', 'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  18
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+8         SEMIM_IMAT_Volume    0.237294
+13        GMH_muscle_HU_Avg    0.124586
+10     GRACILIS_IMAT_Volume    0.073795
+7       SEMIM_muscle_Volume    0.062500
+12  POPLITEUS_muscle_Volume    0.056631
+11  POPLITEUS_muscle_HU_Avg    0.054199
+15           GLH_muscle_STD    0.046707
+9    GRACILIS_muscle_Volume    0.037855
+1            VM_IMAT_Volume    0.033849
+14             GMH_IMAT_STD    0.026059
+3            VL_IMAT_Volume    0.024850
+2               VL_IMAT_STD    0.021754
+17          GLH_IMAT_Volume    0.020492
+0          VM_muscle_HU_Avg    0.019261
+16        GLH_muscle_Volume    0.018608
+4               BF_IMAT_STD    0.018436
+5      SARTORIUS_muscle_STD    0.017341
+6       SEMIM_muscle_HU_Avg    0.015831
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.65454545]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.81515152]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Elapsed time:  60.98509693145752
+****************************************
+             SEED 29340303
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.86060606]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Index(['VM_IMAT_Volume', 'VI_muscle_HU_Avg', 'VI_muscle_Volume',
+       'VL_muscle_Volume', 'SARTORIUS_muscle_STD', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_STD', 'SEMIM_IMAT_Volume',
+       'POPLITEUS_muscle_Volume', 'GMH_muscle_Volume', 'GMH_IMAT_STD',
+       'GLH_IMAT_STD'],
+      dtype='object')
+number of features:  13
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+8         SEMIM_IMAT_Volume    0.230655
+9   POPLITEUS_muscle_Volume    0.144700
+10        GMH_muscle_Volume    0.118509
+2          VI_muscle_Volume    0.091063
+5       SEMIM_muscle_HU_Avg    0.069183
+0            VM_IMAT_Volume    0.037038
+7            SEMIM_IMAT_STD    0.032342
+3          VL_muscle_Volume    0.029078
+11             GMH_IMAT_STD    0.023382
+6       SEMIM_muscle_Volume    0.021107
+1          VI_muscle_HU_Avg    0.018155
+4      SARTORIUS_muscle_STD    0.017975
+12             GLH_IMAT_STD    0.015698
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.84242424]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SARTORIUS_muscle_STD', 'SEMIM_IMAT_STD', 'POPLITEUS_muscle_Volume',
+       'GMH_IMAT_STD'],
+      dtype='object')
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7571644]), 'f1': array([0.66666667]), 'roc_auc': array([0.82424242]), 'precision': array([0.85714286]), 'recall': array([0.54545455])}
+Elapsed time:  28.31562113761902
+****************************************
+             SEED 24999848
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.77575758]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Index(['VM_muscle_Volume', 'VI_muscle_Volume', 'VL_muscle_Volume',
+       'BF_IMAT_STD', 'SARTORIUS_IMAT_HU_Avg', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_STD', 'SEMIM_IMAT_Volume',
+       'SEMIT_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_IMAT_STD', 'GLH_muscle_STD', 'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  17
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+8         SEMIM_IMAT_Volume    0.245032
+11  POPLITEUS_muscle_Volume    0.097376
+1          VI_muscle_Volume    0.062642
+9         SEMIT_IMAT_Volume    0.045969
+2          VL_muscle_Volume    0.045086
+15           GLH_muscle_STD    0.044681
+5       SEMIM_muscle_HU_Avg    0.043176
+14             GMH_IMAT_STD    0.038401
+4     SARTORIUS_IMAT_HU_Avg    0.030525
+12    POPLITEUS_IMAT_Volume    0.030294
+16          GLH_IMAT_Volume    0.024388
+6       SEMIM_muscle_Volume    0.021113
+10   GRACILIS_muscle_Volume    0.020221
+3               BF_IMAT_STD    0.018161
+7            SEMIM_IMAT_STD    0.016867
+13        GMH_muscle_HU_Avg    0.016263
+0          VM_muscle_Volume    0.015699
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.83636364]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.76969697]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Elapsed time:  55.13704514503479
+****************************************
+             SEED 31737090
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.75151515]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Index(['VM_muscle_HU_Avg', 'SARTORIUS_muscle_HU_Avg', 'SARTORIUS_IMAT_STD',
+       'SEMIM_muscle_HU_Avg', 'SEMIM_IMAT_HU_Avg', 'SEMIM_IMAT_STD',
+       'SEMIM_IMAT_Volume', 'SEMIT_muscle_Volume', 'SEMIT_IMAT_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_Volume', 'GMH_IMAT_HU_Avg', 'GMH_IMAT_STD',
+       'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  17
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+6         SEMIM_IMAT_Volume    0.194463
+9   POPLITEUS_muscle_Volume    0.083911
+10    POPLITEUS_IMAT_Volume    0.060055
+3       SEMIM_muscle_HU_Avg    0.059521
+5            SEMIM_IMAT_STD    0.052881
+14             GMH_IMAT_STD    0.048618
+2        SARTORIUS_IMAT_STD    0.035693
+11        GMH_muscle_HU_Avg    0.035370
+15           GLH_muscle_STD    0.035339
+16        GLH_muscle_Volume    0.035128
+1   SARTORIUS_muscle_HU_Avg    0.032113
+4         SEMIM_IMAT_HU_Avg    0.029389
+0          VM_muscle_HU_Avg    0.026012
+8         SEMIT_IMAT_Volume    0.024495
+7       SEMIT_muscle_Volume    0.022068
+13          GMH_IMAT_HU_Avg    0.019800
+12        GMH_muscle_Volume    0.015333
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.8]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_IMAT_Volume', 'GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.83030303]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+Elapsed time:  52.3126060962677
+****************************************
+             SEED 100239444
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69413919]), 'f1': array([0.66666667]), 'roc_auc': array([0.78787879]), 'precision': array([0.61538462]), 'recall': array([0.72727273])}
+Index(['VI_muscle_STD', 'VI_muscle_Volume', 'VL_muscle_Volume',
+       'BF_IMAT_Volume', 'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_Volume',
+       'SEMIM_IMAT_Volume', 'SEMIT_muscle_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_STD',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume', 'GMH_IMAT_STD',
+       'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  16
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+11    POPLITEUS_IMAT_Volume    0.197301
+2          VL_muscle_Volume    0.130618
+15        GLH_muscle_Volume    0.081486
+14           GLH_muscle_STD    0.077569
+13             GMH_IMAT_STD    0.065401
+6         SEMIM_IMAT_Volume    0.052057
+12        GMH_muscle_Volume    0.045147
+7       SEMIT_muscle_Volume    0.043931
+0             VI_muscle_STD    0.040298
+9   POPLITEUS_muscle_Volume    0.034455
+3            BF_IMAT_Volume    0.025427
+5       SEMIM_muscle_Volume    0.021763
+10       POPLITEUS_IMAT_STD    0.021281
+8    GRACILIS_muscle_Volume    0.019741
+1          VI_muscle_Volume    0.016697
+4       SEMIM_muscle_HU_Avg    0.015315
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65538462]), 'f1': array([0.64]), 'roc_auc': array([0.79393939]), 'precision': array([0.57142857]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57367364]), 'f1': array([0.47619048]), 'roc_auc': array([0.71212121]), 'precision': array([0.5]), 'recall': array([0.45454545])}
+Elapsed time:  51.72866773605347
+****************************************
+             SEED 59938718
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.89090909]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+Index(['VM_muscle_STD', 'VI_muscle_Volume.1', 'VL_muscle_Volume',
+       'SARTORIUS_muscle_STD', 'SARTORIUS_IMAT_HU_Avg', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_IMAT_Volume', 'GRACILIS_IMAT_Volume', 'POPLITEUS_muscle_HU_Avg',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_STD', 'GMH_muscle_Volume', 'GMH_IMAT_STD', 'GLH_muscle_STD',
+       'GLH_muscle_Volume', 'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  18
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+6         SEMIM_IMAT_Volume    0.129395
+9   POPLITEUS_muscle_Volume    0.114193
+13        GMH_muscle_Volume    0.079042
+16        GLH_muscle_Volume    0.074835
+15           GLH_muscle_STD    0.066249
+2          VL_muscle_Volume    0.055882
+10    POPLITEUS_IMAT_Volume    0.045819
+14             GMH_IMAT_STD    0.040160
+17          GLH_IMAT_Volume    0.031247
+4     SARTORIUS_IMAT_HU_Avg    0.027392
+5       SEMIM_muscle_HU_Avg    0.026774
+7      GRACILIS_IMAT_Volume    0.022772
+11        GMH_muscle_HU_Avg    0.022306
+3      SARTORIUS_muscle_STD    0.021219
+1        VI_muscle_Volume.1    0.018835
+0             VM_muscle_STD    0.018688
+8   POPLITEUS_muscle_HU_Avg    0.018344
+12           GMH_muscle_STD    0.018192
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.86060606]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.76666667]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+Elapsed time:  87.18396997451782
+****************************************
+             SEED 122955617
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.67272727]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+Index(['VM_muscle_STD', 'VI_muscle_Volume', 'BF_muscle_Volume',
+       'SARTORIUS_muscle_Volume', 'SARTORIUS_IMAT_STD', 'SEMIM_IMAT_Volume',
+       'GRACILIS_muscle_Volume', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg', 'GMH_muscle_STD',
+       'GMH_muscle_Volume', 'GMH_IMAT_Volume', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  14
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+5         SEMIM_IMAT_Volume    0.209344
+7   POPLITEUS_muscle_Volume    0.169414
+1          VI_muscle_Volume    0.062078
+6    GRACILIS_muscle_Volume    0.060247
+2          BF_muscle_Volume    0.050060
+11        GMH_muscle_Volume    0.048408
+8     POPLITEUS_IMAT_Volume    0.044905
+3   SARTORIUS_muscle_Volume    0.039760
+10           GMH_muscle_STD    0.033880
+12          GMH_IMAT_Volume    0.027221
+9         GMH_muscle_HU_Avg    0.023407
+0             VM_muscle_STD    0.022282
+13        GLH_muscle_Volume    0.022172
+4        SARTORIUS_IMAT_STD    0.021177
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.66060606]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VI_muscle_Volume', 'SEMIM_IMAT_Volume'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.71515152]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Elapsed time:  57.56881904602051
+****************************************
+             SEED 120009515
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.59527401]), 'f1': array([0.44444444]), 'roc_auc': array([0.75151515]), 'precision': array([0.57142857]), 'recall': array([0.36363636])}
+Index(['VI_muscle_STD', 'VI_muscle_Volume.1', 'VL_muscle_Volume',
+       'BF_IMAT_Volume', 'SARTORIUS_IMAT_STD', 'SEMIM_IMAT_Volume',
+       'GRACILIS_muscle_Volume', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_STD', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GLH_muscle_STD', 'GLH_muscle_Volume', 'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  14
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+5         SEMIM_IMAT_Volume    0.335175
+11           GLH_muscle_STD    0.125075
+8        POPLITEUS_IMAT_STD    0.050306
+9     POPLITEUS_IMAT_Volume    0.049994
+4        SARTORIUS_IMAT_STD    0.046698
+2          VL_muscle_Volume    0.040986
+12        GLH_muscle_Volume    0.039869
+6    GRACILIS_muscle_Volume    0.038221
+13          GLH_IMAT_Volume    0.028600
+10        GMH_muscle_HU_Avg    0.028179
+1        VI_muscle_Volume.1    0.026497
+7   POPLITEUS_muscle_Volume    0.024656
+0             VI_muscle_STD    0.021696
+3            BF_IMAT_Volume    0.019797
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.67621921]), 'f1': array([0.55555556]), 'roc_auc': array([0.74545455]), 'precision': array([0.71428571]), 'recall': array([0.45454545])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SEMIM_IMAT_Volume'], dtype='object')
+{'accuracy': array([0.42307692]), 'f1_weighted': array([0.40375414]), 'f1': array([0.21052632]), 'roc_auc': array([0.50606061]), 'precision': array([0.25]), 'recall': array([0.18181818])}
+Elapsed time:  49.78161883354187
+****************************************
+             SEED 93139258
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.77575758]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Index(['VM_IMAT_Volume', 'VI_muscle_HU_Avg', 'VI_muscle_Volume', 'VI_IMAT_STD',
+       'VL_muscle_Volume', 'BF_IMAT_Volume', 'SARTORIUS_muscle_HU_Avg',
+       'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_Volume', 'SEMIM_IMAT_Volume',
+       'SEMIT_muscle_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_STD', 'GMH_muscle_Volume', 'GMH_IMAT_STD', 'GLH_muscle_STD',
+       'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  20
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+9         SEMIM_IMAT_Volume    0.210209
+5            BF_IMAT_Volume    0.073490
+14        GMH_muscle_HU_Avg    0.054893
+16        GMH_muscle_Volume    0.052659
+10      SEMIT_muscle_Volume    0.048576
+18           GLH_muscle_STD    0.048328
+8       SEMIM_muscle_Volume    0.046700
+12  POPLITEUS_muscle_Volume    0.045654
+19        GLH_muscle_Volume    0.038595
+13    POPLITEUS_IMAT_Volume    0.033676
+6   SARTORIUS_muscle_HU_Avg    0.032431
+17             GMH_IMAT_STD    0.026942
+7       SEMIM_muscle_HU_Avg    0.026655
+0            VM_IMAT_Volume    0.025925
+11   GRACILIS_muscle_Volume    0.023411
+15           GMH_muscle_STD    0.018886
+2          VI_muscle_Volume    0.016551
+4          VL_muscle_Volume    0.016182
+1          VI_muscle_HU_Avg    0.016090
+3               VI_IMAT_STD    0.015479
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.81818182]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_IMAT_Volume', 'GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7706044]), 'f1': array([0.75]), 'roc_auc': array([0.80606061]), 'precision': array([0.69230769]), 'recall': array([0.81818182])}
+Elapsed time:  73.12815570831299
+****************************************
+             SEED 57288187
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.76969697]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Index(['VM_IMAT_Volume', 'VI_muscle_Volume', 'VL_muscle_Volume',
+       'SARTORIUS_muscle_HU_Avg', 'SARTORIUS_muscle_STD', 'SARTORIUS_IMAT_STD',
+       'SEMIM_IMAT_Volume', 'POPLITEUS_muscle_HU_Avg',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_STD',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume', 'GMH_IMAT_STD',
+       'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  15
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+6         SEMIM_IMAT_Volume    0.186056
+13           GLH_muscle_STD    0.143002
+11        GMH_muscle_Volume    0.110873
+5        SARTORIUS_IMAT_STD    0.109458
+14        GLH_muscle_Volume    0.051321
+10    POPLITEUS_IMAT_Volume    0.046791
+3   SARTORIUS_muscle_HU_Avg    0.039451
+8   POPLITEUS_muscle_Volume    0.039423
+12             GMH_IMAT_STD    0.033710
+7   POPLITEUS_muscle_HU_Avg    0.024814
+1          VI_muscle_Volume    0.024471
+4      SARTORIUS_muscle_STD    0.023919
+0            VM_IMAT_Volume    0.021225
+9        POPLITEUS_IMAT_STD    0.018116
+2          VL_muscle_Volume    0.017536
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.76969697]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_IMAT_Volume', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.62766645]), 'f1': array([0.47058824]), 'roc_auc': array([0.65757576]), 'precision': array([0.66666667]), 'recall': array([0.36363636])}
+Elapsed time:  37.12817883491516
+****************************************
+             SEED 19566776
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.92307692]), 'f1_weighted': array([0.92163462]), 'f1': array([0.9]), 'roc_auc': array([0.98181818]), 'precision': array([1.]), 'recall': array([0.81818182])}
+Index(['VM_muscle_STD', 'VI_muscle_HU_Avg', 'VI_IMAT_HU_Avg', 'BF_IMAT_Volume',
+       'SARTORIUS_muscle_STD', 'SARTORIUS_IMAT_STD', 'SEMIM_muscle_Volume',
+       'SEMIM_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_HU_Avg', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_HU_Avg', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_Volume', 'GLH_muscle_HU_Avg', 'GLH_muscle_STD',
+       'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  18
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+7         SEMIM_IMAT_Volume    0.161820
+10  POPLITEUS_muscle_Volume    0.078828
+0             VM_muscle_STD    0.070014
+16           GLH_muscle_STD    0.062834
+14        GMH_muscle_Volume    0.060319
+12    POPLITEUS_IMAT_Volume    0.056114
+5        SARTORIUS_IMAT_STD    0.049759
+6       SEMIM_muscle_Volume    0.045137
+2            VI_IMAT_HU_Avg    0.028252
+3            BF_IMAT_Volume    0.023389
+13        GMH_muscle_HU_Avg    0.021578
+1          VI_muscle_HU_Avg    0.021427
+15        GLH_muscle_HU_Avg    0.021267
+17        GLH_muscle_Volume    0.020439
+11    POPLITEUS_IMAT_HU_Avg    0.018012
+8    GRACILIS_muscle_Volume    0.016993
+4      SARTORIUS_muscle_STD    0.015676
+9   POPLITEUS_muscle_HU_Avg    0.015403
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88372917]), 'f1': array([0.85714286]), 'roc_auc': array([0.92727273]), 'precision': array([0.9]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SARTORIUS_IMAT_STD', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_HU_Avg', 'GLH_muscle_HU_Avg'],
+      dtype='object')
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.76969697]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Elapsed time:  53.433884143829346
+****************************************
+             SEED 51681088
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.80606061]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+Index(['VM_muscle_HU_Avg', 'VM_muscle_STD', 'VI_muscle_Volume',
+       'VL_muscle_Volume', 'BF_muscle_Volume', 'BF_IMAT_Volume',
+       'SARTORIUS_IMAT_STD', 'SEMIM_IMAT_STD', 'SEMIM_IMAT_Volume',
+       'SEMIT_IMAT_Volume', 'GRACILIS_muscle_Volume', 'GRACILIS_IMAT_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_HU_Avg',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg', 'GMH_IMAT_HU_Avg',
+       'GMH_IMAT_STD', 'GLH_muscle_STD', 'GLH_muscle_Volume',
+       'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  21
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+12  POPLITEUS_muscle_Volume    0.179254
+8         SEMIM_IMAT_Volume    0.153322
+10   GRACILIS_muscle_Volume    0.055655
+2          VI_muscle_Volume    0.054167
+7            SEMIM_IMAT_STD    0.047308
+0          VM_muscle_HU_Avg    0.044591
+3          VL_muscle_Volume    0.039975
+14    POPLITEUS_IMAT_Volume    0.036274
+9         SEMIT_IMAT_Volume    0.034301
+4          BF_muscle_Volume    0.032539
+19        GLH_muscle_Volume    0.030445
+16          GMH_IMAT_HU_Avg    0.029770
+11     GRACILIS_IMAT_Volume    0.028649
+5            BF_IMAT_Volume    0.028017
+20          GLH_IMAT_Volume    0.027713
+1             VM_muscle_STD    0.020440
+17             GMH_IMAT_STD    0.020094
+18           GLH_muscle_STD    0.018278
+13    POPLITEUS_IMAT_HU_Avg    0.016800
+15        GMH_muscle_HU_Avg    0.016239
+6        SARTORIUS_IMAT_STD    0.015855
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.86666667]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VM_muscle_HU_Avg', 'POPLITEUS_muscle_Volume', 'GMH_IMAT_STD'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65118752]), 'f1': array([0.57142857]), 'roc_auc': array([0.73939394]), 'precision': array([0.6]), 'recall': array([0.54545455])}
+Elapsed time:  75.91840100288391
+****************************************
+             SEED 87123957
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.80606061]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+Index(['VL_muscle_Volume', 'BF_muscle_HU_Avg', 'BF_muscle_Volume',
+       'BF_IMAT_STD', 'SARTORIUS_IMAT_STD', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_Volume', 'SEMIT_muscle_Volume',
+       'GRACILIS_muscle_Volume', 'POPLITEUS_muscle_HU_Avg',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_STD',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg', 'GMH_muscle_Volume',
+       'GLH_muscle_HU_Avg', 'GLH_muscle_STD'],
+      dtype='object')
+number of features:  18
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+13    POPLITEUS_IMAT_Volume    0.138822
+7         SEMIM_IMAT_Volume    0.120116
+0          VL_muscle_Volume    0.095907
+4        SARTORIUS_IMAT_STD    0.063849
+11  POPLITEUS_muscle_Volume    0.051561
+6       SEMIM_muscle_Volume    0.049007
+16        GLH_muscle_HU_Avg    0.041655
+15        GMH_muscle_Volume    0.039641
+5       SEMIM_muscle_HU_Avg    0.039144
+17           GLH_muscle_STD    0.026164
+9    GRACILIS_muscle_Volume    0.021754
+1          BF_muscle_HU_Avg    0.020605
+12       POPLITEUS_IMAT_STD    0.017721
+14        GMH_muscle_HU_Avg    0.016478
+3               BF_IMAT_STD    0.015931
+10  POPLITEUS_muscle_HU_Avg    0.015670
+8       SEMIT_muscle_Volume    0.015400
+2          BF_muscle_Volume    0.015264
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.67621921]), 'f1': array([0.55555556]), 'roc_auc': array([0.79393939]), 'precision': array([0.71428571]), 'recall': array([0.45454545])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VL_muscle_Volume', 'POPLITEUS_muscle_Volume'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.67621921]), 'f1': array([0.55555556]), 'roc_auc': array([0.63636364]), 'precision': array([0.71428571]), 'recall': array([0.45454545])}
+Elapsed time:  53.50686001777649
+****************************************
+             SEED 4012812
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88075083]), 'f1': array([0.84210526]), 'roc_auc': array([0.87878788]), 'precision': array([1.]), 'recall': array([0.72727273])}
+Index(['VI_muscle_Volume', 'VL_muscle_Volume', 'BF_IMAT_Volume',
+       'SARTORIUS_IMAT_STD', 'SARTORIUS_IMAT_Volume', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_Volume', 'SEMIT_muscle_Volume',
+       'GRACILIS_IMAT_HU_Avg', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_STD', 'GMH_muscle_Volume',
+       'GMH_IMAT_STD', 'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  17
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+7         SEMIM_IMAT_Volume    0.202725
+15           GLH_muscle_STD    0.111392
+11    POPLITEUS_IMAT_Volume    0.071822
+13        GMH_muscle_Volume    0.061349
+10  POPLITEUS_muscle_Volume    0.051199
+16        GLH_muscle_Volume    0.050798
+3        SARTORIUS_IMAT_STD    0.046660
+4     SARTORIUS_IMAT_Volume    0.041569
+1          VL_muscle_Volume    0.037440
+6       SEMIM_muscle_Volume    0.034831
+0          VI_muscle_Volume    0.033551
+2            BF_IMAT_Volume    0.032436
+5       SEMIM_muscle_HU_Avg    0.026455
+14             GMH_IMAT_STD    0.021874
+9      GRACILIS_IMAT_HU_Avg    0.021153
+12           GMH_muscle_STD    0.016454
+8       SEMIT_muscle_Volume    0.016294
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.79314803]), 'f1': array([0.70588235]), 'roc_auc': array([0.89090909]), 'precision': array([1.]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SARTORIUS_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.61538462]), 'f1': array([0.54545455]), 'roc_auc': array([0.6969697]), 'precision': array([0.54545455]), 'recall': array([0.54545455])}
+Elapsed time:  49.50365996360779
+****************************************
+             SEED 2290168
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65538462]), 'f1': array([0.64]), 'roc_auc': array([0.70909091]), 'precision': array([0.57142857]), 'recall': array([0.72727273])}
+Index(['VM_muscle_HU_Avg', 'VI_muscle_Volume', 'BF_muscle_STD',
+       'SARTORIUS_IMAT_STD', 'SEMIM_muscle_Volume', 'SEMIM_IMAT_HU_Avg',
+       'SEMIM_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_HU_Avg',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume', 'GLH_muscle_STD',
+       'GLH_muscle_Volume', 'GLH_IMAT_STD'],
+      dtype='object')
+number of features:  15
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+6         SEMIM_IMAT_Volume    0.227612
+8   POPLITEUS_muscle_Volume    0.219181
+12           GLH_muscle_STD    0.057293
+0          VM_muscle_HU_Avg    0.047163
+9     POPLITEUS_IMAT_HU_Avg    0.045382
+10    POPLITEUS_IMAT_Volume    0.041009
+1          VI_muscle_Volume    0.025844
+13        GLH_muscle_Volume    0.025660
+2             BF_muscle_STD    0.023694
+7    GRACILIS_muscle_Volume    0.022743
+5         SEMIM_IMAT_HU_Avg    0.020895
+3        SARTORIUS_IMAT_STD    0.019848
+11        GMH_muscle_Volume    0.019492
+4       SEMIM_muscle_Volume    0.018976
+14             GLH_IMAT_STD    0.018293
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.74545455]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VM_muscle_HU_Avg', 'SEMIM_IMAT_HU_Avg', 'POPLITEUS_muscle_Volume'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57880342]), 'f1': array([0.56]), 'roc_auc': array([0.69393939]), 'precision': array([0.5]), 'recall': array([0.63636364])}
+Elapsed time:  55.00042104721069
+****************************************
+             SEED 4822929
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7571644]), 'f1': array([0.66666667]), 'roc_auc': array([0.84242424]), 'precision': array([0.85714286]), 'recall': array([0.54545455])}
+Index(['VI_muscle_Volume', 'VL_muscle_Volume', 'BF_IMAT_Volume',
+       'SARTORIUS_muscle_HU_Avg', 'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_STD',
+       'SEMIM_IMAT_Volume', 'SEMIT_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'GMH_muscle_Volume', 'GMH_IMAT_STD',
+       'GLH_muscle_HU_Avg', 'GLH_muscle_STD', 'GLH_muscle_Volume',
+       'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  16
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+6         SEMIM_IMAT_Volume    0.241785
+10        GMH_muscle_Volume    0.081431
+9   POPLITEUS_muscle_Volume    0.072776
+15          GLH_IMAT_Volume    0.070296
+0          VI_muscle_Volume    0.053425
+7         SEMIT_IMAT_Volume    0.050494
+1          VL_muscle_Volume    0.049860
+8    GRACILIS_muscle_Volume    0.049227
+2            BF_IMAT_Volume    0.046322
+4       SEMIM_muscle_HU_Avg    0.033402
+14        GLH_muscle_Volume    0.023405
+11             GMH_IMAT_STD    0.021644
+3   SARTORIUS_muscle_HU_Avg    0.019224
+5          SEMIM_muscle_STD    0.019219
+13           GLH_muscle_STD    0.017577
+12        GLH_muscle_HU_Avg    0.016462
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.87878788]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SEMIM_muscle_HU_Avg', 'SEMIM_IMAT_Volume', 'GMH_muscle_Volume'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.71040724]), 'f1': array([0.58823529]), 'roc_auc': array([0.68484848]), 'precision': array([0.83333333]), 'recall': array([0.45454545])}
+Elapsed time:  54.55559706687927
+****************************************
+             SEED 51976174
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.80606061]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+Index(['VM_muscle_HU_Avg', 'VM_muscle_Volume', 'BF_IMAT_Volume',
+       'SARTORIUS_muscle_STD', 'SARTORIUS_IMAT_STD', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_HU_Avg', 'SEMIM_IMAT_Volume',
+       'POPLITEUS_muscle_STD', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg', 'GMH_muscle_Volume',
+       'GMH_IMAT_STD', 'GLH_muscle_STD', 'GLH_muscle_Volume',
+       'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  18
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+8         SEMIM_IMAT_Volume    0.182639
+10  POPLITEUS_muscle_Volume    0.137362
+14             GMH_IMAT_STD    0.078711
+13        GMH_muscle_Volume    0.062451
+16        GLH_muscle_Volume    0.061299
+5       SEMIM_muscle_HU_Avg    0.053416
+15           GLH_muscle_STD    0.047659
+17          GLH_IMAT_Volume    0.042652
+0          VM_muscle_HU_Avg    0.038759
+4        SARTORIUS_IMAT_STD    0.033064
+11    POPLITEUS_IMAT_Volume    0.028564
+7         SEMIM_IMAT_HU_Avg    0.026243
+1          VM_muscle_Volume    0.026207
+2            BF_IMAT_Volume    0.025665
+6       SEMIM_muscle_Volume    0.023064
+9      POPLITEUS_muscle_STD    0.020783
+3      SARTORIUS_muscle_STD    0.015711
+12        GMH_muscle_HU_Avg    0.015478
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.81818182]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65118752]), 'f1': array([0.57142857]), 'roc_auc': array([0.7]), 'precision': array([0.6]), 'recall': array([0.54545455])}
+Elapsed time:  80.06693291664124
+****************************************
+             SEED 87871136
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.9030303]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+Index(['VL_muscle_Volume', 'BF_muscle_Volume', 'BF_IMAT_Volume',
+       'SARTORIUS_IMAT_STD', 'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_Volume',
+       'SEMIM_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_STD',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume', 'GMH_IMAT_STD',
+       'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  15
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+6         SEMIM_IMAT_Volume    0.206365
+11        GMH_muscle_Volume    0.111260
+4       SEMIM_muscle_HU_Avg    0.105489
+8   POPLITEUS_muscle_Volume    0.090137
+13           GLH_muscle_STD    0.061890
+12             GMH_IMAT_STD    0.048900
+10    POPLITEUS_IMAT_Volume    0.031481
+3        SARTORIUS_IMAT_STD    0.031254
+7    GRACILIS_muscle_Volume    0.029017
+1          BF_muscle_Volume    0.026875
+5       SEMIM_muscle_Volume    0.026695
+9        POPLITEUS_IMAT_STD    0.022007
+14        GLH_muscle_Volume    0.021862
+2            BF_IMAT_Volume    0.021480
+0          VL_muscle_Volume    0.016448
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84615385]), 'f1': array([0.81818182]), 'roc_auc': array([0.92121212]), 'precision': array([0.81818182]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.75454545]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Elapsed time:  52.56979727745056
+****************************************
+             SEED 82816674
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.83636364]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+Index(['VM_muscle_Volume', 'VI_IMAT_STD', 'BF_muscle_Volume',
+       'SARTORIUS_muscle_STD', 'SEMIM_muscle_HU_Avg', 'SEMIM_IMAT_HU_Avg',
+       'SEMIM_IMAT_Volume', 'GRACILIS_muscle_Volume', 'GRACILIS_IMAT_Volume',
+       'POPLITEUS_muscle_HU_Avg', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_STD', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume',
+       'GMH_IMAT_STD', 'GLH_muscle_STD'],
+      dtype='object')
+number of features:  16
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+10  POPLITEUS_muscle_Volume    0.168670
+6         SEMIM_IMAT_Volume    0.164245
+13        GMH_muscle_Volume    0.100764
+1               VI_IMAT_STD    0.053515
+4       SEMIM_muscle_HU_Avg    0.048088
+8      GRACILIS_IMAT_Volume    0.033740
+0          VM_muscle_Volume    0.032691
+12    POPLITEUS_IMAT_Volume    0.031893
+14             GMH_IMAT_STD    0.028069
+7    GRACILIS_muscle_Volume    0.027557
+15           GLH_muscle_STD    0.022745
+5         SEMIM_IMAT_HU_Avg    0.020851
+9   POPLITEUS_muscle_HU_Avg    0.020586
+3      SARTORIUS_muscle_STD    0.018832
+11       POPLITEUS_IMAT_STD    0.017768
+2          BF_muscle_Volume    0.017417
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.87878788]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84615385]), 'f1': array([0.81818182]), 'roc_auc': array([0.93636364]), 'precision': array([0.81818182]), 'recall': array([0.81818182])}
+Elapsed time:  59.969398021698
+****************************************
+             SEED 70466145
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84326923]), 'f1': array([0.8]), 'roc_auc': array([0.81818182]), 'precision': array([0.88888889]), 'recall': array([0.72727273])}
+Index(['SARTORIUS_IMAT_HU_Avg', 'SARTORIUS_IMAT_STD', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_IMAT_Volume', 'SEMIT_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_STD', 'GMH_muscle_Volume', 'GLH_muscle_STD'],
+      dtype='object')
+number of features:  12
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+3         SEMIM_IMAT_Volume    0.299280
+11           GLH_muscle_STD    0.109508
+6   POPLITEUS_muscle_Volume    0.082454
+10        GMH_muscle_Volume    0.079791
+1        SARTORIUS_IMAT_STD    0.077188
+2       SEMIM_muscle_HU_Avg    0.065624
+9            GMH_muscle_STD    0.041855
+0     SARTORIUS_IMAT_HU_Avg    0.041078
+7     POPLITEUS_IMAT_Volume    0.040015
+5    GRACILIS_muscle_Volume    0.033334
+4         SEMIT_IMAT_Volume    0.027840
+8         GMH_muscle_HU_Avg    0.015960
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.75757576]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_muscle_Volume'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57880342]), 'f1': array([0.56]), 'roc_auc': array([0.63333333]), 'precision': array([0.5]), 'recall': array([0.63636364])}
+Elapsed time:  31.977970123291016
+****************************************
+             SEED 26615348
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84326923]), 'f1': array([0.8]), 'roc_auc': array([0.86666667]), 'precision': array([0.88888889]), 'recall': array([0.72727273])}
+Index(['VM_muscle_Volume', 'VI_muscle_Volume', 'SARTORIUS_IMAT_STD',
+       'SEMIM_muscle_HU_Avg', 'SEMIM_IMAT_HU_Avg', 'SEMIM_IMAT_Volume',
+       'SEMIT_muscle_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_STD',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg', 'GMH_muscle_Volume',
+       'GMH_IMAT_STD', 'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  16
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+5         SEMIM_IMAT_Volume    0.139068
+8   POPLITEUS_muscle_Volume    0.087061
+14           GLH_muscle_STD    0.085013
+13             GMH_IMAT_STD    0.082574
+10    POPLITEUS_IMAT_Volume    0.070572
+12        GMH_muscle_Volume    0.062585
+7    GRACILIS_muscle_Volume    0.045841
+9        POPLITEUS_IMAT_STD    0.039353
+0          VM_muscle_Volume    0.038432
+3       SEMIM_muscle_HU_Avg    0.038138
+2        SARTORIUS_IMAT_STD    0.032685
+15        GLH_muscle_Volume    0.031025
+4         SEMIM_IMAT_HU_Avg    0.025353
+11        GMH_muscle_HU_Avg    0.021264
+1          VI_muscle_Volume    0.015766
+6       SEMIT_muscle_Volume    0.015335
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7571644]), 'f1': array([0.66666667]), 'roc_auc': array([0.88484848]), 'precision': array([0.85714286]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VM_muscle_Volume', 'SEMIM_IMAT_Volume', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.71040724]), 'f1': array([0.58823529]), 'roc_auc': array([0.82424242]), 'precision': array([0.83333333]), 'recall': array([0.45454545])}
+Elapsed time:  70.62593007087708
+****************************************
+             SEED 33972790
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.92307692]), 'f1_weighted': array([0.92307692]), 'f1': array([0.90909091]), 'roc_auc': array([0.98181818]), 'precision': array([0.90909091]), 'recall': array([0.90909091])}
+Index(['VI_muscle_HU_Avg', 'VL_muscle_HU_Avg', 'VL_muscle_Volume',
+       'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_Volume', 'SEMIM_IMAT_Volume',
+       'SEMIT_muscle_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_Volume', 'GMH_IMAT_STD', 'GLH_muscle_HU_Avg',
+       'GLH_muscle_STD'],
+      dtype='object')
+number of features:  15
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+5         SEMIM_IMAT_Volume    0.195199
+4       SEMIM_muscle_Volume    0.127432
+8   POPLITEUS_muscle_Volume    0.102061
+10        GMH_muscle_HU_Avg    0.062637
+3       SEMIM_muscle_HU_Avg    0.057683
+11        GMH_muscle_Volume    0.051511
+1          VL_muscle_HU_Avg    0.045790
+14           GLH_muscle_STD    0.038304
+2          VL_muscle_Volume    0.038065
+7    GRACILIS_muscle_Volume    0.027257
+13        GLH_muscle_HU_Avg    0.026974
+9     POPLITEUS_IMAT_Volume    0.025869
+6       SEMIT_muscle_Volume    0.024798
+0          VI_muscle_HU_Avg    0.022449
+12             GMH_IMAT_STD    0.016956
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84326923]), 'f1': array([0.8]), 'roc_auc': array([0.96363636]), 'precision': array([0.88888889]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SEMIM_IMAT_Volume'], dtype='object')
+{'accuracy': array([0.46153846]), 'f1_weighted': array([0.46474359]), 'f1': array([0.41666667]), 'roc_auc': array([0.57575758]), 'precision': array([0.38461538]), 'recall': array([0.45454545])}
+Elapsed time:  69.6692407131195
+****************************************
+             SEED 71810036
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.80606061]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+Index(['VI_muscle_Volume', 'BF_muscle_STD', 'BF_IMAT_STD', 'BF_IMAT_Volume',
+       'SARTORIUS_IMAT_STD', 'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_Volume',
+       'SEMIM_IMAT_Volume', 'SEMIT_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg',
+       'GMH_muscle_Volume', 'GLH_muscle_STD', 'GLH_muscle_Volume',
+       'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  17
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+7         SEMIM_IMAT_Volume    0.266014
+8         SEMIT_IMAT_Volume    0.087504
+0          VI_muscle_Volume    0.071689
+10  POPLITEUS_muscle_Volume    0.063234
+9    GRACILIS_muscle_Volume    0.059269
+12        GMH_muscle_HU_Avg    0.044349
+16          GLH_IMAT_Volume    0.040632
+5       SEMIM_muscle_HU_Avg    0.033391
+15        GLH_muscle_Volume    0.027566
+2               BF_IMAT_STD    0.024480
+11    POPLITEUS_IMAT_Volume    0.024260
+3            BF_IMAT_Volume    0.023882
+14           GLH_muscle_STD    0.021601
+6       SEMIM_muscle_Volume    0.021411
+4        SARTORIUS_IMAT_STD    0.020152
+1             BF_muscle_STD    0.019448
+13        GMH_muscle_Volume    0.018972
+{'accuracy': array([0.53846154]), 'f1_weighted': array([0.52980769]), 'f1': array([0.4]), 'roc_auc': array([0.76969697]), 'precision': array([0.44444444]), 'recall': array([0.36363636])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SEMIM_IMAT_Volume', 'SEMIT_IMAT_Volume'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.71818182]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+Elapsed time:  84.66142797470093
+****************************************
+             SEED 41001483
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.63678427]), 'f1': array([0.42857143]), 'roc_auc': array([0.9030303]), 'precision': array([1.]), 'recall': array([0.27272727])}
+Index(['VM_muscle_HU_Avg', 'VI_muscle_HU_Avg', 'VL_muscle_Volume',
+       'BF_muscle_Volume', 'SARTORIUS_IMAT_STD', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_STD', 'SEMIM_IMAT_Volume',
+       'SEMIT_muscle_Volume', 'SEMIT_IMAT_Volume', 'GRACILIS_muscle_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_STD',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg', 'GMH_muscle_Volume',
+       'GLH_muscle_STD'],
+      dtype='object')
+number of features:  18
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+8         SEMIM_IMAT_Volume    0.200620
+12  POPLITEUS_muscle_Volume    0.122523
+2          VL_muscle_Volume    0.075254
+6       SEMIM_muscle_Volume    0.054274
+0          VM_muscle_HU_Avg    0.052400
+7            SEMIM_IMAT_STD    0.047630
+9       SEMIT_muscle_Volume    0.043339
+5       SEMIM_muscle_HU_Avg    0.032826
+16        GMH_muscle_Volume    0.032216
+17           GLH_muscle_STD    0.030174
+13       POPLITEUS_IMAT_STD    0.027681
+4        SARTORIUS_IMAT_STD    0.026254
+3          BF_muscle_Volume    0.024728
+14    POPLITEUS_IMAT_Volume    0.023715
+11   GRACILIS_muscle_Volume    0.017667
+10        SEMIT_IMAT_Volume    0.015865
+15        GMH_muscle_HU_Avg    0.015658
+1          VI_muscle_HU_Avg    0.015485
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.74519231]), 'f1': array([0.625]), 'roc_auc': array([0.9030303]), 'precision': array([1.]), 'recall': array([0.45454545])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VL_muscle_Volume', 'SARTORIUS_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65118752]), 'f1': array([0.57142857]), 'roc_auc': array([0.66666667]), 'precision': array([0.6]), 'recall': array([0.54545455])}
+Elapsed time:  82.89677286148071
+****************************************
+             SEED 70823297
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84615385]), 'f1': array([0.84615385]), 'roc_auc': array([0.9030303]), 'precision': array([0.73333333]), 'recall': array([1.])}
+Index(['VM_IMAT_Volume', 'VI_muscle_HU_Avg', 'VI_muscle_Volume', 'VI_IMAT_STD',
+       'BF_muscle_Volume', 'SARTORIUS_muscle_STD', 'SARTORIUS_IMAT_STD',
+       'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_Volume', 'SEMIM_IMAT_Volume',
+       'GRACILIS_muscle_Volume', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume', 'GMH_IMAT_HU_Avg',
+       'GMH_IMAT_STD', 'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  18
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+9         SEMIM_IMAT_Volume    0.216272
+11  POPLITEUS_muscle_Volume    0.136282
+13        GMH_muscle_Volume    0.088026
+7       SEMIM_muscle_HU_Avg    0.058021
+16           GLH_muscle_STD    0.042083
+15             GMH_IMAT_STD    0.039641
+12    POPLITEUS_IMAT_Volume    0.036630
+4          BF_muscle_Volume    0.034851
+8       SEMIM_muscle_Volume    0.033905
+17        GLH_muscle_Volume    0.030681
+1          VI_muscle_HU_Avg    0.030623
+2          VI_muscle_Volume    0.023022
+10   GRACILIS_muscle_Volume    0.021952
+0            VM_IMAT_Volume    0.020940
+6        SARTORIUS_IMAT_STD    0.019374
+5      SARTORIUS_muscle_STD    0.019307
+3               VI_IMAT_STD    0.017162
+14          GMH_IMAT_HU_Avg    0.015880
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88512821]), 'f1': array([0.88]), 'roc_auc': array([0.9030303]), 'precision': array([0.78571429]), 'recall': array([1.])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.7969697]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+Elapsed time:  83.22288513183594
+****************************************
+             SEED 5361943
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.83636364]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+Index(['VI_muscle_STD', 'VI_muscle_Volume', 'VL_muscle_Volume',
+       'BF_muscle_Volume', 'SEMIM_muscle_HU_Avg', 'SEMIM_muscle_Volume',
+       'SEMIM_IMAT_Volume', 'GRACILIS_muscle_Volume', 'GRACILIS_IMAT_Volume',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_STD',
+       'POPLITEUS_IMAT_Volume', 'GMH_muscle_HU_Avg', 'GMH_IMAT_STD',
+       'GLH_muscle_STD', 'GLH_muscle_Volume'],
+      dtype='object')
+number of features:  16
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+6         SEMIM_IMAT_Volume    0.229876
+9   POPLITEUS_muscle_Volume    0.123222
+11    POPLITEUS_IMAT_Volume    0.094350
+4       SEMIM_muscle_HU_Avg    0.046595
+14           GLH_muscle_STD    0.044728
+15        GLH_muscle_Volume    0.041146
+12        GMH_muscle_HU_Avg    0.040998
+13             GMH_IMAT_STD    0.040082
+7    GRACILIS_muscle_Volume    0.036533
+3          BF_muscle_Volume    0.033972
+2          VL_muscle_Volume    0.032317
+5       SEMIM_muscle_Volume    0.026420
+1          VI_muscle_Volume    0.024806
+10       POPLITEUS_IMAT_STD    0.023506
+8      GRACILIS_IMAT_Volume    0.021232
+0             VI_muscle_STD    0.019808
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.8]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SEMIM_IMAT_Volume', 'GRACILIS_IMAT_Volume', 'POPLITEUS_IMAT_Volume'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.75757576]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+Elapsed time:  62.57841992378235
+****************************************
+             SEED 33646744
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.86060606]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+Index(['VI_muscle_Volume', 'VI_IMAT_HU_Avg', 'VL_muscle_Volume',
+       'VL_IMAT_Volume', 'BF_IMAT_Volume', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_Volume', 'POPLITEUS_muscle_Volume',
+       'POPLITEUS_IMAT_STD', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume',
+       'GMH_IMAT_STD', 'GLH_muscle_STD'],
+      dtype='object')
+number of features:  14
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+7         SEMIM_IMAT_Volume    0.168964
+8   POPLITEUS_muscle_Volume    0.120914
+10    POPLITEUS_IMAT_Volume    0.101437
+13           GLH_muscle_STD    0.073969
+6       SEMIM_muscle_Volume    0.071670
+3            VL_IMAT_Volume    0.065157
+2          VL_muscle_Volume    0.063600
+11        GMH_muscle_Volume    0.055406
+1            VI_IMAT_HU_Avg    0.041557
+12             GMH_IMAT_STD    0.039802
+0          VI_muscle_Volume    0.032750
+4            BF_IMAT_Volume    0.023844
+9        POPLITEUS_IMAT_STD    0.019910
+5       SEMIM_muscle_HU_Avg    0.018238
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.84242424]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84615385]), 'f1': array([0.81818182]), 'roc_auc': array([0.86060606]), 'precision': array([0.81818182]), 'recall': array([0.81818182])}
+Elapsed time:  47.24717903137207
+****************************************
+             SEED 91585880
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.8381096]), 'f1': array([0.77777778]), 'roc_auc': array([0.92121212]), 'precision': array([1.]), 'recall': array([0.63636364])}
+Index(['VM_muscle_STD', 'VI_muscle_Volume', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_IMAT_Volume', 'SEMIT_muscle_Volume', 'SEMIT_IMAT_STD',
+       'SEMIT_IMAT_Volume', 'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_Volume',
+       'GMH_muscle_HU_Avg', 'GMH_muscle_Volume', 'GMH_IMAT_STD',
+       'GLH_muscle_HU_Avg', 'GLH_muscle_STD', 'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  15
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+3         SEMIM_IMAT_Volume    0.257975
+13           GLH_muscle_STD    0.082133
+11             GMH_IMAT_STD    0.074276
+10        GMH_muscle_Volume    0.069251
+1          VI_muscle_Volume    0.057635
+4       SEMIT_muscle_Volume    0.050179
+2       SEMIM_muscle_HU_Avg    0.048027
+9         GMH_muscle_HU_Avg    0.045260
+7   POPLITEUS_muscle_Volume    0.043783
+6         SEMIT_IMAT_Volume    0.026218
+8     POPLITEUS_IMAT_Volume    0.024463
+0             VM_muscle_STD    0.022682
+5            SEMIT_IMAT_STD    0.021225
+12        GLH_muscle_HU_Avg    0.020962
+14          GLH_IMAT_Volume    0.018424
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.83636364]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['GMH_IMAT_STD', 'GLH_muscle_STD'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.71040724]), 'f1': array([0.58823529]), 'roc_auc': array([0.74848485]), 'precision': array([0.83333333]), 'recall': array([0.45454545])}
+Elapsed time:  52.04837703704834
+****************************************
+             SEED 48456857
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.67621921]), 'f1': array([0.55555556]), 'roc_auc': array([0.68484848]), 'precision': array([0.71428571]), 'recall': array([0.45454545])}
+Index(['VM_muscle_STD', 'BF_IMAT_HU_Avg', 'BF_IMAT_Volume',
+       'SARTORIUS_muscle_STD', 'SEMIM_muscle_HU_Avg', 'SEMIM_IMAT_Volume',
+       'GRACILIS_IMAT_STD', 'POPLITEUS_IMAT_STD', 'GMH_muscle_Volume',
+       'GMH_IMAT_STD', 'GLH_muscle_STD'],
+      dtype='object')
+number of features:  11
+****************************************
+               WEIGHTS
+****************************************
+                 Feature  Importance
+5      SEMIM_IMAT_Volume    0.322570
+8      GMH_muscle_Volume    0.143357
+10        GLH_muscle_STD    0.124874
+2         BF_IMAT_Volume    0.065635
+0          VM_muscle_STD    0.062841
+1         BF_IMAT_HU_Avg    0.046459
+4    SEMIM_muscle_HU_Avg    0.030461
+9           GMH_IMAT_STD    0.022522
+7     POPLITEUS_IMAT_STD    0.020082
+6      GRACILIS_IMAT_STD    0.018611
+3   SARTORIUS_muscle_STD    0.015929
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.61538462]), 'f1': array([0.54545455]), 'roc_auc': array([0.69090909]), 'precision': array([0.54545455]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['SEMIM_IMAT_Volume', 'GMH_muscle_Volume'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57367364]), 'f1': array([0.47619048]), 'roc_auc': array([0.47575758]), 'precision': array([0.5]), 'recall': array([0.45454545])}
+Elapsed time:  26.594568014144897
+****************************************
+             SEED 39370803
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.79393939]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+Index(['VM_muscle_STD', 'VI_muscle_Volume', 'VI_IMAT_HU_Avg',
+       'VL_muscle_Volume', 'SEMIM_muscle_HU_Avg', 'SEMIM_IMAT_Volume',
+       'GRACILIS_IMAT_STD', 'GRACILIS_IMAT_Volume', 'POPLITEUS_muscle_HU_Avg',
+       'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_STD', 'GMH_muscle_Volume',
+       'GMH_IMAT_STD', 'GMH_IMAT_Volume', 'GLH_IMAT_STD', 'GLH_IMAT_Volume'],
+      dtype='object')
+number of features:  16
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+5         SEMIM_IMAT_Volume    0.194581
+9   POPLITEUS_muscle_Volume    0.163452
+3          VL_muscle_Volume    0.081910
+11        GMH_muscle_Volume    0.077487
+4       SEMIM_muscle_HU_Avg    0.037622
+13          GMH_IMAT_Volume    0.035629
+7      GRACILIS_IMAT_Volume    0.032024
+10       POPLITEUS_IMAT_STD    0.024441
+12             GMH_IMAT_STD    0.024318
+2            VI_IMAT_HU_Avg    0.023553
+15          GLH_IMAT_Volume    0.018666
+14             GLH_IMAT_STD    0.017492
+0             VM_muscle_STD    0.016931
+6         GRACILIS_IMAT_STD    0.016750
+1          VI_muscle_Volume    0.016071
+8   POPLITEUS_muscle_HU_Avg    0.015453
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.8]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['VI_IMAT_HU_Avg', 'SEMIM_IMAT_Volume'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.64225248]), 'f1': array([0.52631579]), 'roc_auc': array([0.70909091]), 'precision': array([0.625]), 'recall': array([0.45454545])}
+Elapsed time:  56.7667121887207
+****************************************
+             SEED 81447646
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.88484848]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+Index(['VM_muscle_HU_Avg', 'VM_muscle_Volume', 'BF_muscle_Volume',
+       'SARTORIUS_muscle_HU_Avg', 'SARTORIUS_IMAT_STD', 'SEMIM_muscle_HU_Avg',
+       'SEMIM_muscle_Volume', 'SEMIM_IMAT_HU_Avg', 'SEMIM_IMAT_STD',
+       'SEMIM_IMAT_Volume', 'POPLITEUS_muscle_Volume', 'POPLITEUS_IMAT_HU_Avg',
+       'POPLITEUS_IMAT_STD', 'POPLITEUS_IMAT_Volume', 'GMH_muscle_Volume',
+       'GLH_muscle_STD'],
+      dtype='object')
+number of features:  16
+****************************************
+               WEIGHTS
+****************************************
+                    Feature  Importance
+10  POPLITEUS_muscle_Volume    0.194545
+4        SARTORIUS_IMAT_STD    0.087379
+2          BF_muscle_Volume    0.072879
+12       POPLITEUS_IMAT_STD    0.061968
+3   SARTORIUS_muscle_HU_Avg    0.059328
+15           GLH_muscle_STD    0.055338
+8            SEMIM_IMAT_STD    0.045400
+6       SEMIM_muscle_Volume    0.038808
+9         SEMIM_IMAT_Volume    0.037923
+14        GMH_muscle_Volume    0.037271
+7         SEMIM_IMAT_HU_Avg    0.035671
+1          VM_muscle_Volume    0.034869
+13    POPLITEUS_IMAT_Volume    0.034403
+0          VM_muscle_HU_Avg    0.033570
+11    POPLITEUS_IMAT_HU_Avg    0.030128
+5       SEMIM_muscle_HU_Avg    0.020187
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.89090909]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['POPLITEUS_muscle_Volume'], dtype='object')
+{'accuracy': array([0.53846154]), 'f1_weighted': array([0.52980769]), 'f1': array([0.4]), 'roc_auc': array([0.61515152]), 'precision': array([0.44444444]), 'recall': array([0.36363636])}
+Elapsed time:  74.48161196708679
+****************************************
+                 TESTING
+****************************************
+RandomForestClassifier..................................................
+Time for execution:  84
+Scoring ['Mean', 'Std']
+accuracy [0.75, 0.0805]
+f1_weighted [0.74, 0.0868]
+f1 [0.65, 0.1258]
+roc_auc [0.82, 0.0813]
+precision [0.74, 0.1163]
+recall [0.59, 0.1549]
+test scores:  [0.8461538461538461, 0.8432692307692307, 0.7999999999999999, 0.9060606060606061, 0.8888888888888888, 0.7272727272727273]
+SVC..................................................
+Time for execution:  3
+Scoring ['Mean', 'Std']
+accuracy [0.77, 0.069]
+f1_weighted [0.76, 0.0751]
+f1 [0.67, 0.1156]
+roc_auc [0.83, 0.0443]
+precision [0.81, 0.1316]
+recall [0.59, 0.146]
+test scores:  [0.7692307692307693, 0.7649038461538462, 0.7000000000000001, 0.8666666666666667, 0.7777777777777778, 0.6363636363636364]
