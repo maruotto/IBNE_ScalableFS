@@ -1,0 +1,1458 @@
+IGNORING UNDEFINED METRIC WARNING
+****************************************
+             SUBJECTS
+****************************************
+Total subjects:  128 with 0 na patients
+****************************************
+                 cartilage
+****************************************
+correct imported samples: 128 
+over a total of: 128
+****************************************
+                 DATASET
+****************************************
+Total samples useful to purpose: 128
+Proneness index analyzed 1
+Category 0 76
+Category 1 52
+sum check:  128 128
+Max features allowed:  50  over a total of  16
+Total samples useful to train purpose: 128
+Proneness index analyzed 1
+Category 0 61
+Category 1 41
+sum check:  102 128
+****************************************
+                TRAINING
+****************************************
+RandomForestClassifier..................................................
+Time for execution:  42
+Scoring ['Mean', 'Std']
+accuracy [0.76, 0.0874]
+f1_weighted [0.75, 0.09]
+f1 [0.67, 0.1383]
+roc_auc [0.86, 0.0879]
+precision [0.74, 0.171]
+recall [0.63, 0.1663]
+SVC..................................................
+Time for execution:  2
+Scoring ['Mean', 'Std']
+accuracy [0.76, 0.0701]
+f1_weighted [0.75, 0.073]
+f1 [0.66, 0.1235]
+roc_auc [0.86, 0.0574]
+precision [0.75, 0.1655]
+recall [0.63, 0.181]
+****************************************
+             SEED 102772449
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.71040724]), 'f1': array([0.58823529]), 'roc_auc': array([0.8]), 'precision': array([0.83333333]), 'recall': array([0.45454545])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.285986
+4         FemCart Surface    0.133947
+0  MedTibCart Density STD    0.106521
+1       LatTibCart Volume    0.097387
+3          PatCart Volume    0.085361
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.87272727]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65540307]), 'f1': array([0.60869565]), 'roc_auc': array([0.64242424]), 'precision': array([0.58333333]), 'recall': array([0.63636364])}
+Elapsed time:  3.742469072341919
+****************************************
+             SEED 21744986
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.73333333]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+Index(['MedTibCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  4
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2          PatCart Volume    0.276568
+3         FemCart Surface    0.186349
+1       MedTibCart Volume    0.120168
+0  MedTibCart Density STD    0.090180
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57882597]), 'f1': array([0.52173913]), 'roc_auc': array([0.64242424]), 'precision': array([0.5]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD', 'MedTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65540307]), 'f1': array([0.60869565]), 'roc_auc': array([0.79393939]), 'precision': array([0.58333333]), 'recall': array([0.63636364])}
+Elapsed time:  1.9062080383300781
+****************************************
+             SEED 57857517
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.88484848]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+Index(['MedTibCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  4
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1       MedTibCart Volume    0.230051
+0  MedTibCart Density STD    0.207583
+2          PatCart Volume    0.143201
+3         FemCart Surface    0.080145
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.71515152]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.56275304]), 'f1': array([0.42105263]), 'roc_auc': array([0.65151515]), 'precision': array([0.5]), 'recall': array([0.36363636])}
+Elapsed time:  2.318843126296997
+****************************************
+             SEED 62360057
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88372917]), 'f1': array([0.85714286]), 'roc_auc': array([0.87878788]), 'precision': array([0.9]), 'recall': array([0.81818182])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.246023
+3          PatCart Volume    0.122192
+5      LatTibCart Surface    0.111478
+0  MedTibCart Density STD    0.092849
+1       LatTibCart Volume    0.077747
+4         FemCart Surface    0.076989
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.8969697]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'LatTibCart Surface'], dtype='object')
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.78787879]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+Elapsed time:  5.150752067565918
+****************************************
+             SEED 62450291
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.76363636]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+Index(['MedTibCart Density STD', 'PatCart Density STD', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.279905
+0  MedTibCart Density STD    0.157733
+1     PatCart Density STD    0.105691
+4          PatCart Volume    0.092619
+5      LatTibCart Surface    0.069314
+2       LatTibCart Volume    0.064408
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.73939394]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'LatTibCart Surface'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.76666667]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+Elapsed time:  5.22441291809082
+****************************************
+             SEED 116237632
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73196581]), 'f1': array([0.72]), 'roc_auc': array([0.81818182]), 'precision': array([0.64285714]), 'recall': array([0.81818182])}
+Index(['FemCart Volume', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+              Feature  Importance
+2      PatCart Volume    0.321973
+3     FemCart Surface    0.169209
+1   MedTibCart Volume    0.153071
+4  LatTibCart Surface    0.100435
+0      FemCart Volume    0.078517
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65540307]), 'f1': array([0.60869565]), 'roc_auc': array([0.70909091]), 'precision': array([0.58333333]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['PatCart Volume'], dtype='object')
+{'accuracy': array([0.30769231]), 'f1_weighted': array([0.30769231]), 'f1': array([0.18181818]), 'roc_auc': array([0.30909091]), 'precision': array([0.18181818]), 'recall': array([0.18181818])}
+Elapsed time:  3.5607051849365234
+****************************************
+             SEED 65948098
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.92121212]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Index(['MedTibCart Density STD', 'FemCart Volume', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.283628
+4          PatCart Volume    0.117954
+2       LatTibCart Volume    0.113840
+5      LatTibCart Surface    0.093958
+0  MedTibCart Density STD    0.086093
+1          FemCart Volume    0.076528
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.9030303]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.81818182]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+Elapsed time:  5.177661180496216
+****************************************
+             SEED 33356060
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.72727273]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+Index(['MedTibCart Density STD', 'PatCart Density STD', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'LatTibCart Surface',
+       'MedTibCart Surface'],
+      dtype='object')
+number of features:  7
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+0  MedTibCart Density STD    0.240991
+4         FemCart Surface    0.117678
+2       MedTibCart Volume    0.099329
+3          PatCart Volume    0.085758
+6      MedTibCart Surface    0.083268
+1     PatCart Density STD    0.073444
+5      LatTibCart Surface    0.072749
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65118752]), 'f1': array([0.57142857]), 'roc_auc': array([0.8]), 'precision': array([0.6]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['FemCart Surface'], dtype='object')
+{'accuracy': array([0.5]), 'f1_weighted': array([0.43063063]), 'f1': array([0.13333333]), 'roc_auc': array([0.45454545]), 'precision': array([0.25]), 'recall': array([0.09090909])}
+Elapsed time:  7.191287040710449
+****************************************
+             SEED 12040344
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.95151515]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'FemCart Surface',
+       'LatTibCart Surface'],
+      dtype='object')
+number of features:  7
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1  MedTibCart Density STD    0.231426
+3       MedTibCart Volume    0.132252
+0  LatTibCart Density STD    0.111762
+5         FemCart Surface    0.100149
+4          PatCart Volume    0.094402
+2       LatTibCart Volume    0.076592
+6      LatTibCart Surface    0.066405
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.9030303]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.67621921]), 'f1': array([0.55555556]), 'roc_auc': array([0.54848485]), 'precision': array([0.71428571]), 'recall': array([0.45454545])}
+Elapsed time:  7.713238954544067
+****************************************
+             SEED 60578026
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88075083]), 'f1': array([0.84210526]), 'roc_auc': array([0.8969697]), 'precision': array([1.]), 'recall': array([0.72727273])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'MedTibCart Volume',
+       'PatCart Volume', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.217781
+0  LatTibCart Density STD    0.158976
+1  MedTibCart Density STD    0.106128
+3          PatCart Volume    0.104439
+4      LatTibCart Surface    0.068344
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88075083]), 'f1': array([0.84210526]), 'roc_auc': array([0.76969697]), 'precision': array([1.]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'LatTibCart Surface'], dtype='object')
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.77575758]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+Elapsed time:  3.8058507442474365
+****************************************
+             SEED 54547281
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.81212121]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD',
+       'PatCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.250433
+1  MedTibCart Density STD    0.167495
+4          PatCart Volume    0.126363
+5      LatTibCart Surface    0.081989
+0  LatTibCart Density STD    0.065123
+2     PatCart Density STD    0.063997
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.59527401]), 'f1': array([0.44444444]), 'roc_auc': array([0.70909091]), 'precision': array([0.57142857]), 'recall': array([0.36363636])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.63939394]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Elapsed time:  5.467589855194092
+****************************************
+             SEED 21329461
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.91515152]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'FemCart Volume',
+       'LatTibCart Volume', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  7
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+4       MedTibCart Volume    0.237930
+5          PatCart Volume    0.138020
+6         FemCart Surface    0.125024
+1  MedTibCart Density STD    0.094315
+2          FemCart Volume    0.088903
+3       LatTibCart Volume    0.080377
+0  LatTibCart Density STD    0.066209
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.9030303]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['PatCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72877493]), 'f1': array([0.74074074]), 'roc_auc': array([0.83939394]), 'precision': array([0.625]), 'recall': array([0.90909091])}
+Elapsed time:  7.776166915893555
+****************************************
+             SEED 47880249
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.66025641]), 'f1': array([0.5]), 'roc_auc': array([0.9030303]), 'precision': array([0.8]), 'recall': array([0.36363636])}
+Index(['MedTibCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1       MedTibCart Volume    0.235716
+3         FemCart Surface    0.132430
+0  MedTibCart Density STD    0.112796
+2          PatCart Volume    0.089304
+4      LatTibCart Surface    0.083017
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.8]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65118752]), 'f1': array([0.57142857]), 'roc_auc': array([0.61818182]), 'precision': array([0.6]), 'recall': array([0.54545455])}
+Elapsed time:  3.75193190574646
+****************************************
+             SEED 64116921
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.95757576]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+Index(['MedTibCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  4
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1       MedTibCart Volume    0.200750
+3         FemCart Surface    0.183111
+0  MedTibCart Density STD    0.161388
+2          PatCart Volume    0.128272
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.81212121]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['FemCart Surface'], dtype='object')
+{'accuracy': array([0.5]), 'f1_weighted': array([0.48325359]), 'f1': array([0.31578947]), 'roc_auc': array([0.57878788]), 'precision': array([0.375]), 'recall': array([0.27272727])}
+Elapsed time:  2.252122163772583
+****************************************
+             SEED 56016230
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.8470696]), 'f1': array([0.83333333]), 'roc_auc': array([0.87272727]), 'precision': array([0.76923077]), 'recall': array([0.90909091])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.243637
+4          PatCart Volume    0.128967
+5      LatTibCart Surface    0.110163
+2       LatTibCart Volume    0.085606
+0  LatTibCart Density STD    0.075893
+1  MedTibCart Density STD    0.073337
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.81818182]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'LatTibCart Surface'], dtype='object')
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.74848485]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+Elapsed time:  5.167568683624268
+****************************************
+             SEED 78385625
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.8969697]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+Index(['MedTibCart Density STD', 'FemCart Volume', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.272882
+0  MedTibCart Density STD    0.138852
+4          PatCart Volume    0.124289
+5         FemCart Surface    0.098158
+2       LatTibCart Volume    0.069554
+1          FemCart Volume    0.065570
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.8381096]), 'f1': array([0.77777778]), 'roc_auc': array([0.88484848]), 'precision': array([1.]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['FemCart Surface'], dtype='object')
+{'accuracy': array([0.53846154]), 'f1_weighted': array([0.51432881]), 'f1': array([0.33333333]), 'roc_auc': array([0.54545455]), 'precision': array([0.42857143]), 'recall': array([0.27272727])}
+Elapsed time:  5.16609001159668
+****************************************
+             SEED 92247720
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.73939394]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.375600
+0  MedTibCart Density STD    0.123899
+1       LatTibCart Volume    0.091564
+3          PatCart Volume    0.090930
+4         FemCart Surface    0.072440
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65540307]), 'f1': array([0.60869565]), 'roc_auc': array([0.7030303]), 'precision': array([0.58333333]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.46153846]), 'f1_weighted': array([0.45144231]), 'f1': array([0.3]), 'roc_auc': array([0.44242424]), 'precision': array([0.33333333]), 'recall': array([0.27272727])}
+Elapsed time:  3.541818141937256
+****************************************
+             SEED 9003199
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7571644]), 'f1': array([0.66666667]), 'roc_auc': array([0.84242424]), 'precision': array([0.85714286]), 'recall': array([0.54545455])}
+Index(['MedTibCart Density STD', 'FemCart Volume', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.216347
+5         FemCart Surface    0.199485
+0  MedTibCart Density STD    0.109419
+2       LatTibCart Volume    0.093639
+4          PatCart Volume    0.089478
+1          FemCart Volume    0.072946
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.84848485]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65540307]), 'f1': array([0.60869565]), 'roc_auc': array([0.75151515]), 'precision': array([0.58333333]), 'recall': array([0.63636364])}
+Elapsed time:  5.13291335105896
+****************************************
+             SEED 69653188
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7571644]), 'f1': array([0.66666667]), 'roc_auc': array([0.82424242]), 'precision': array([0.85714286]), 'recall': array([0.54545455])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'FemCart Surface',
+       'LatTibCart Surface'],
+      dtype='object')
+number of features:  7
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.229757
+1  MedTibCart Density STD    0.204307
+4          PatCart Volume    0.126690
+5         FemCart Surface    0.100760
+6      LatTibCart Surface    0.076764
+0  LatTibCart Density STD    0.076709
+2       LatTibCart Volume    0.069126
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.79314803]), 'f1': array([0.70588235]), 'roc_auc': array([0.8969697]), 'precision': array([1.]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.61767399]), 'f1': array([0.58333333]), 'roc_auc': array([0.70909091]), 'precision': array([0.53846154]), 'recall': array([0.63636364])}
+Elapsed time:  7.055474281311035
+****************************************
+             SEED 122180222
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.9030303]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'LatTibCart Volume',
+       'MedTibCart Volume'],
+      dtype='object')
+number of features:  4
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.269659
+0  LatTibCart Density STD    0.148667
+2       LatTibCart Volume    0.110008
+1  MedTibCart Density STD    0.102765
+{'accuracy': array([0.96153846]), 'f1_weighted': array([0.96124306]), 'f1': array([0.95238095]), 'roc_auc': array([0.91515152]), 'precision': array([1.]), 'recall': array([0.90909091])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.82424242]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+Elapsed time:  2.24281907081604
+****************************************
+             SEED 29340303
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.76363636]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'LatTibCart Volume',
+       'MedTibCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.328258
+2       LatTibCart Volume    0.163244
+4         FemCart Surface    0.125209
+1  MedTibCart Density STD    0.118512
+0  LatTibCart Density STD    0.064826
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.67878788]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57367364]), 'f1': array([0.47619048]), 'roc_auc': array([0.53939394]), 'precision': array([0.5]), 'recall': array([0.45454545])}
+Elapsed time:  3.553025007247925
+****************************************
+             SEED 24999848
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.79314803]), 'f1': array([0.70588235]), 'roc_auc': array([0.93333333]), 'precision': array([1.]), 'recall': array([0.54545455])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.208829
+0  MedTibCart Density STD    0.172782
+4         FemCart Surface    0.137414
+3          PatCart Volume    0.089495
+1       LatTibCart Volume    0.073962
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.79314803]), 'f1': array([0.70588235]), 'roc_auc': array([0.89090909]), 'precision': array([1.]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65540307]), 'f1': array([0.60869565]), 'roc_auc': array([0.77575758]), 'precision': array([0.58333333]), 'recall': array([0.63636364])}
+Elapsed time:  3.5265510082244873
+****************************************
+             SEED 31737090
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.60582121]), 'f1': array([0.4]), 'roc_auc': array([0.78181818]), 'precision': array([0.75]), 'recall': array([0.27272727])}
+Index(['MedTibCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  4
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1       MedTibCart Volume    0.262524
+3         FemCart Surface    0.155754
+2          PatCart Volume    0.125754
+0  MedTibCart Density STD    0.099131
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.67621921]), 'f1': array([0.55555556]), 'roc_auc': array([0.68484848]), 'precision': array([0.71428571]), 'recall': array([0.45454545])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.60582121]), 'f1': array([0.4]), 'roc_auc': array([0.52121212]), 'precision': array([0.75]), 'recall': array([0.27272727])}
+Elapsed time:  2.2325048446655273
+****************************************
+             SEED 100239444
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.83030303]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+Index(['LatTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+4         FemCart Surface    0.166577
+2       MedTibCart Volume    0.163449
+0  LatTibCart Density STD    0.159591
+3          PatCart Volume    0.094295
+1       LatTibCart Volume    0.077748
+5      LatTibCart Surface    0.067710
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84326923]), 'f1': array([0.8]), 'roc_auc': array([0.86060606]), 'precision': array([0.88888889]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.51822592]), 'f1': array([0.26666667]), 'roc_auc': array([0.50606061]), 'precision': array([0.5]), 'recall': array([0.18181818])}
+Elapsed time:  5.104479074478149
+****************************************
+             SEED 59938718
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88513436]), 'f1': array([0.86956522]), 'roc_auc': array([0.87272727]), 'precision': array([0.83333333]), 'recall': array([0.90909091])}
+Index(['LatTibCart Density STD', 'PatCart Density HU Avg',
+       'PatCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.265667
+4          PatCart Volume    0.110654
+2     PatCart Density STD    0.100354
+0  LatTibCart Density STD    0.078467
+5         FemCart Surface    0.069052
+1  PatCart Density HU Avg    0.065530
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.83636364]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['PatCart Density HU Avg', 'PatCart Density STD'], dtype='object')
+{'accuracy': array([0.53846154]), 'f1_weighted': array([0.52980769]), 'f1': array([0.4]), 'roc_auc': array([0.61212121]), 'precision': array([0.44444444]), 'recall': array([0.36363636])}
+Elapsed time:  5.116188049316406
+****************************************
+             SEED 122955617
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.8969697]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+Index(['MedTibCart Density STD', 'FemCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.248922
+4         FemCart Surface    0.160000
+3          PatCart Volume    0.145685
+0  MedTibCart Density STD    0.102802
+1          FemCart Volume    0.067323
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.71515152]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.64225248]), 'f1': array([0.52631579]), 'roc_auc': array([0.65454545]), 'precision': array([0.625]), 'recall': array([0.45454545])}
+Elapsed time:  3.54262113571167
+****************************************
+             SEED 120009515
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.80606061]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume'],
+      dtype='object')
+number of features:  4
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.279711
+3          PatCart Volume    0.153019
+1       LatTibCart Volume    0.133225
+0  MedTibCart Density STD    0.086920
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.76969697]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.62766645]), 'f1': array([0.47058824]), 'roc_auc': array([0.7030303]), 'precision': array([0.66666667]), 'recall': array([0.36363636])}
+Elapsed time:  2.219689130783081
+****************************************
+             SEED 93139258
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.66025641]), 'f1': array([0.5]), 'roc_auc': array([0.77575758]), 'precision': array([0.8]), 'recall': array([0.36363636])}
+Index(['LatTibCart Density HU Avg', 'MedTibCart Density STD',
+       'MedTibCart Volume', 'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                     Feature  Importance
+2          MedTibCart Volume    0.356767
+4            FemCart Surface    0.147675
+1     MedTibCart Density STD    0.112054
+3             PatCart Volume    0.073776
+0  LatTibCart Density HU Avg    0.066227
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.62766645]), 'f1': array([0.47058824]), 'roc_auc': array([0.74545455]), 'precision': array([0.66666667]), 'recall': array([0.36363636])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.53846154]), 'f1_weighted': array([0.51432881]), 'f1': array([0.33333333]), 'roc_auc': array([0.46969697]), 'precision': array([0.42857143]), 'recall': array([0.27272727])}
+Elapsed time:  3.49965500831604
+****************************************
+             SEED 57288187
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.89090909]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'FemCart Volume',
+       'LatTibCart Volume', 'MedTibCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+4       MedTibCart Volume    0.304098
+2          FemCart Volume    0.121127
+3       LatTibCart Volume    0.108786
+1  MedTibCart Density STD    0.097037
+0  LatTibCart Density STD    0.092743
+5         FemCart Surface    0.063948
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.81818182]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.61538462]), 'f1': array([0.54545455]), 'roc_auc': array([0.71212121]), 'precision': array([0.54545455]), 'recall': array([0.54545455])}
+Elapsed time:  5.1647820472717285
+****************************************
+             SEED 19566776
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88075083]), 'f1': array([0.84210526]), 'roc_auc': array([0.93333333]), 'precision': array([1.]), 'recall': array([0.72727273])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'FemCart Volume',
+       'MedTibCart Volume', 'PatCart Volume'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1  MedTibCart Density STD    0.287366
+4          PatCart Volume    0.155571
+3       MedTibCart Volume    0.146158
+2          FemCart Volume    0.087767
+0  LatTibCart Density STD    0.086277
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.71040724]), 'f1': array([0.58823529]), 'roc_auc': array([0.76969697]), 'precision': array([0.83333333]), 'recall': array([0.45454545])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Density STD', 'PatCart Volume'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.66025641]), 'f1': array([0.5]), 'roc_auc': array([0.70909091]), 'precision': array([0.8]), 'recall': array([0.36363636])}
+Elapsed time:  3.5203092098236084
+****************************************
+             SEED 51681088
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84326923]), 'f1': array([0.8]), 'roc_auc': array([0.90909091]), 'precision': array([0.88888889]), 'recall': array([0.72727273])}
+Index(['MedTibCart Density STD', 'FemCart Volume', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.317409
+2       LatTibCart Volume    0.104743
+0  MedTibCart Density STD    0.095981
+4          PatCart Volume    0.083665
+1          FemCart Volume    0.082651
+5      LatTibCart Surface    0.063833
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.8381096]), 'f1': array([0.77777778]), 'roc_auc': array([0.9030303]), 'precision': array([1.]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.73030303]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Elapsed time:  5.1607208251953125
+****************************************
+             SEED 87123957
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65118752]), 'f1': array([0.57142857]), 'roc_auc': array([0.70909091]), 'precision': array([0.6]), 'recall': array([0.54545455])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD',
+       'PatCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1  MedTibCart Density STD    0.235924
+4          PatCart Volume    0.142974
+0  LatTibCart Density STD    0.121944
+5         FemCart Surface    0.103351
+3       MedTibCart Volume    0.094723
+2     PatCart Density STD    0.085108
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.77575758]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD', 'PatCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.71040724]), 'f1': array([0.58823529]), 'roc_auc': array([0.76363636]), 'precision': array([0.83333333]), 'recall': array([0.45454545])}
+Elapsed time:  4.707045793533325
+****************************************
+             SEED 4012812
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84326923]), 'f1': array([0.8]), 'roc_auc': array([0.83636364]), 'precision': array([0.88888889]), 'recall': array([0.72727273])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.212562
+3          PatCart Volume    0.163620
+5      LatTibCart Surface    0.131161
+4         FemCart Surface    0.130591
+0  MedTibCart Density STD    0.080898
+1       LatTibCart Volume    0.073299
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.85454545]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'LatTibCart Surface'], dtype='object')
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.79393939]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+Elapsed time:  5.110881090164185
+****************************************
+             SEED 2290168
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72870141]), 'f1': array([0.66666667]), 'roc_auc': array([0.79393939]), 'precision': array([0.7]), 'recall': array([0.63636364])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'FemCart Volume',
+       'LatTibCart Volume', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  7
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1  MedTibCart Density STD    0.241779
+4       MedTibCart Volume    0.149072
+3       LatTibCart Volume    0.118524
+2          FemCart Volume    0.094410
+0  LatTibCart Density STD    0.084584
+6         FemCart Surface    0.081633
+5          PatCart Volume    0.081430
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.73939394]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.79393939]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+Elapsed time:  7.116337060928345
+****************************************
+             SEED 4822929
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.66025641]), 'f1': array([0.5]), 'roc_auc': array([0.76969697]), 'precision': array([0.8]), 'recall': array([0.36363636])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.299736
+4         FemCart Surface    0.168767
+1       LatTibCart Volume    0.123944
+3          PatCart Volume    0.086515
+0  MedTibCart Density STD    0.070873
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.71040724]), 'f1': array([0.58823529]), 'roc_auc': array([0.78181818]), 'precision': array([0.83333333]), 'recall': array([0.45454545])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.66025641]), 'f1': array([0.5]), 'roc_auc': array([0.6]), 'precision': array([0.8]), 'recall': array([0.36363636])}
+Elapsed time:  3.557476043701172
+****************************************
+             SEED 51976174
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.81212121]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1  MedTibCart Density STD    0.212296
+2       MedTibCart Volume    0.210481
+0  LatTibCart Density STD    0.119812
+3          PatCart Volume    0.071487
+4         FemCart Surface    0.064321
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7571644]), 'f1': array([0.66666667]), 'roc_auc': array([0.85454545]), 'precision': array([0.85714286]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69413919]), 'f1': array([0.66666667]), 'roc_auc': array([0.71212121]), 'precision': array([0.61538462]), 'recall': array([0.72727273])}
+Elapsed time:  3.496220827102661
+****************************************
+             SEED 87871136
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57367364]), 'f1': array([0.47619048]), 'roc_auc': array([0.66666667]), 'precision': array([0.5]), 'recall': array([0.45454545])}
+Index(['LatTibCart Density STD', 'MedTibCart Density HU Avg',
+       'MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'MedTibCart Surface'],
+      dtype='object')
+number of features:  8
+****************************************
+               WEIGHTS
+****************************************
+                     Feature  Importance
+5             PatCart Volume    0.239815
+0     LatTibCart Density STD    0.139204
+2     MedTibCart Density STD    0.116470
+4          MedTibCart Volume    0.112723
+3          LatTibCart Volume    0.076060
+6            FemCart Surface    0.075502
+1  MedTibCart Density HU Avg    0.063735
+7         MedTibCart Surface    0.063089
+{'accuracy': array([0.53846154]), 'f1_weighted': array([0.52980769]), 'f1': array([0.4]), 'roc_auc': array([0.61818182]), 'precision': array([0.44444444]), 'recall': array([0.36363636])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['PatCart Volume'], dtype='object')
+{'accuracy': array([0.5]), 'f1_weighted': array([0.48325359]), 'f1': array([0.31578947]), 'roc_auc': array([0.47575758]), 'precision': array([0.375]), 'recall': array([0.27272727])}
+Elapsed time:  9.313884019851685
+****************************************
+             SEED 82816674
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.88484848]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Index(['FemCart Density HU Avg', 'LatTibCart Density STD',
+       'MedTibCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+5         FemCart Surface    0.199301
+2  MedTibCart Density STD    0.188723
+4          PatCart Volume    0.163173
+3       MedTibCart Volume    0.129429
+1  LatTibCart Density STD    0.076345
+0  FemCart Density HU Avg    0.066788
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.83030303]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.71212121]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Elapsed time:  5.082569122314453
+****************************************
+             SEED 70466145
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.79314803]), 'f1': array([0.70588235]), 'roc_auc': array([0.75757576]), 'precision': array([1.]), 'recall': array([0.54545455])}
+Index(['MedTibCart Density STD', 'FemCart Volume', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.208710
+5         FemCart Surface    0.167772
+0  MedTibCart Density STD    0.160513
+1          FemCart Volume    0.118606
+2       LatTibCart Volume    0.099744
+4          PatCart Volume    0.083220
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.79314803]), 'f1': array([0.70588235]), 'roc_auc': array([0.81212121]), 'precision': array([1.]), 'recall': array([0.54545455])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume'], dtype='object')
+{'accuracy': array([0.42307692]), 'f1_weighted': array([0.42567178]), 'f1': array([0.34782609]), 'roc_auc': array([0.43636364]), 'precision': array([0.33333333]), 'recall': array([0.36363636])}
+Elapsed time:  5.139742136001587
+****************************************
+             SEED 26615348
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88372917]), 'f1': array([0.85714286]), 'roc_auc': array([0.93939394]), 'precision': array([0.9]), 'recall': array([0.81818182])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.252123
+0  MedTibCart Density STD    0.167697
+4         FemCart Surface    0.112699
+3          PatCart Volume    0.100648
+1       LatTibCart Volume    0.062980
+{'accuracy': array([0.88461538]), 'f1_weighted': array([0.88075083]), 'f1': array([0.84210526]), 'roc_auc': array([0.92121212]), 'precision': array([1.]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.68653846]), 'f1': array([0.6]), 'roc_auc': array([0.66060606]), 'precision': array([0.66666667]), 'recall': array([0.54545455])}
+Elapsed time:  3.5399868488311768
+****************************************
+             SEED 33972790
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84615385]), 'f1': array([0.81818182]), 'roc_auc': array([0.88484848]), 'precision': array([0.81818182]), 'recall': array([0.81818182])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'FemCart Surface',
+       'PatCart Surface'],
+      dtype='object')
+number of features:  7
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3       MedTibCart Volume    0.198165
+4          PatCart Volume    0.151832
+1  MedTibCart Density STD    0.125561
+2       LatTibCart Volume    0.102444
+0  LatTibCart Density STD    0.077896
+6         PatCart Surface    0.072016
+5         FemCart Surface    0.066339
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.86060606]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.73939394]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Elapsed time:  7.004163980484009
+****************************************
+             SEED 71810036
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.81818182]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.289177
+3          PatCart Volume    0.123144
+5      LatTibCart Surface    0.107815
+1       LatTibCart Volume    0.089425
+4         FemCart Surface    0.082505
+0  MedTibCart Density STD    0.072578
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.82424242]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume', 'MedTibCart Volume'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65118752]), 'f1': array([0.57142857]), 'roc_auc': array([0.64848485]), 'precision': array([0.6]), 'recall': array([0.54545455])}
+Elapsed time:  5.169388055801392
+****************************************
+             SEED 41001483
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7571644]), 'f1': array([0.66666667]), 'roc_auc': array([0.87878788]), 'precision': array([0.85714286]), 'recall': array([0.54545455])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.240582
+0  MedTibCart Density STD    0.202743
+3          PatCart Volume    0.120758
+4         FemCart Surface    0.109745
+1       LatTibCart Volume    0.088359
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.83030303]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD'], dtype='object')
+{'accuracy': array([0.53846154]), 'f1_weighted': array([0.53846154]), 'f1': array([0.45454545]), 'roc_auc': array([0.63636364]), 'precision': array([0.45454545]), 'recall': array([0.45454545])}
+Elapsed time:  3.545318841934204
+****************************************
+             SEED 70823297
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80854701]), 'f1': array([0.8]), 'roc_auc': array([0.87878788]), 'precision': array([0.71428571]), 'recall': array([0.90909091])}
+Index(['LatTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+3          PatCart Volume    0.275745
+4         FemCart Surface    0.157136
+2       MedTibCart Volume    0.120110
+0  LatTibCart Density STD    0.104582
+1       LatTibCart Volume    0.069681
+5      LatTibCart Surface    0.067110
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.87878788]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['LatTibCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.66969697]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Elapsed time:  5.121790885925293
+****************************************
+             SEED 5361943
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.67621921]), 'f1': array([0.55555556]), 'roc_auc': array([0.78181818]), 'precision': array([0.71428571]), 'recall': array([0.45454545])}
+Index(['MedTibCart Density STD', 'FemCart Volume', 'LatTibCart Volume',
+       'MedTibCart Volume', 'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+0  MedTibCart Density STD    0.221771
+3       MedTibCart Volume    0.185432
+2       LatTibCart Volume    0.110473
+5         FemCart Surface    0.096781
+4          PatCart Volume    0.071399
+1          FemCart Volume    0.067503
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80125138]), 'f1': array([0.73684211]), 'roc_auc': array([0.71515152]), 'precision': array([0.875]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD', 'PatCart Volume'], dtype='object')
+{'accuracy': array([0.57692308]), 'f1_weighted': array([0.57367364]), 'f1': array([0.47619048]), 'roc_auc': array([0.65454545]), 'precision': array([0.5]), 'recall': array([0.45454545])}
+Elapsed time:  5.098153829574585
+****************************************
+             SEED 33646744
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.84326923]), 'f1': array([0.8]), 'roc_auc': array([0.83636364]), 'precision': array([0.88888889]), 'recall': array([0.72727273])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'MedTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1  MedTibCart Density STD    0.225367
+2       MedTibCart Volume    0.146514
+4         FemCart Surface    0.128766
+3          PatCart Volume    0.099864
+0  LatTibCart Density STD    0.095469
+5      MedTibCart Surface    0.062602
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.7706044]), 'f1': array([0.75]), 'roc_auc': array([0.81818182]), 'precision': array([0.69230769]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.65128205]), 'f1': array([0.66666667]), 'roc_auc': array([0.71515152]), 'precision': array([0.5625]), 'recall': array([0.81818182])}
+Elapsed time:  5.21165919303894
+****************************************
+             SEED 91585880
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76490385]), 'f1': array([0.7]), 'roc_auc': array([0.83636364]), 'precision': array([0.77777778]), 'recall': array([0.63636364])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+2       MedTibCart Volume    0.270508
+4         FemCart Surface    0.142916
+1       LatTibCart Volume    0.113270
+5      LatTibCart Surface    0.106552
+3          PatCart Volume    0.102475
+0  MedTibCart Density STD    0.095381
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.85454545]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['PatCart Volume', 'FemCart Surface'], dtype='object')
+{'accuracy': array([0.61538462]), 'f1_weighted': array([0.60817308]), 'f1': array([0.5]), 'roc_auc': array([0.73030303]), 'precision': array([0.55555556]), 'recall': array([0.45454545])}
+Elapsed time:  5.131091833114624
+****************************************
+             SEED 48456857
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80621529]), 'f1': array([0.76190476]), 'roc_auc': array([0.86060606]), 'precision': array([0.8]), 'recall': array([0.72727273])}
+Index(['LatTibCart Density STD', 'MedTibCart Density STD', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface'],
+      dtype='object')
+number of features:  5
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+1  MedTibCart Density STD    0.243255
+2       MedTibCart Volume    0.160774
+3          PatCart Volume    0.141336
+4         FemCart Surface    0.137531
+0  LatTibCart Density STD    0.102207
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.73198016]), 'f1': array([0.69565217]), 'roc_auc': array([0.78484848]), 'precision': array([0.66666667]), 'recall': array([0.72727273])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD'], dtype='object')
+{'accuracy': array([0.65384615]), 'f1_weighted': array([0.64225248]), 'f1': array([0.52631579]), 'roc_auc': array([0.71515152]), 'precision': array([0.625]), 'recall': array([0.45454545])}
+Elapsed time:  3.5279698371887207
+****************************************
+             SEED 39370803
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.8]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+Index(['MedTibCart Density STD', 'MedTibCart Volume', 'PatCart Volume',
+       'FemCart Surface'],
+      dtype='object')
+number of features:  4
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+0  MedTibCart Density STD    0.220899
+2          PatCart Volume    0.183701
+1       MedTibCart Volume    0.178523
+3         FemCart Surface    0.115919
+{'accuracy': array([0.69230769]), 'f1_weighted': array([0.69230769]), 'f1': array([0.63636364]), 'roc_auc': array([0.81818182]), 'precision': array([0.63636364]), 'recall': array([0.63636364])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Density STD'], dtype='object')
+{'accuracy': array([0.73076923]), 'f1_weighted': array([0.72175193]), 'f1': array([0.63157895]), 'roc_auc': array([0.65454545]), 'precision': array([0.75]), 'recall': array([0.54545455])}
+Elapsed time:  2.2216057777404785
+****************************************
+             SEED 81447646
+****************************************
+****************************************
+             BASE PERFORMANCES
+****************************************
+{'accuracy': array([0.84615385]), 'f1_weighted': array([0.8470696]), 'f1': array([0.83333333]), 'roc_auc': array([0.93939394]), 'precision': array([0.76923077]), 'recall': array([0.90909091])}
+Index(['MedTibCart Density STD', 'LatTibCart Volume', 'MedTibCart Volume',
+       'PatCart Volume', 'FemCart Surface', 'LatTibCart Surface'],
+      dtype='object')
+number of features:  6
+****************************************
+               WEIGHTS
+****************************************
+                  Feature  Importance
+0  MedTibCart Density STD    0.199921
+2       MedTibCart Volume    0.162922
+3          PatCart Volume    0.114214
+5      LatTibCart Surface    0.092643
+1       LatTibCart Volume    0.075204
+4         FemCart Surface    0.072637
+{'accuracy': array([0.80769231]), 'f1_weighted': array([0.80855726]), 'f1': array([0.7826087]), 'roc_auc': array([0.95757576]), 'precision': array([0.75]), 'recall': array([0.81818182])}
+****************************************
+    SFM+B-SFS PERFORMANCES
+****************************************
+Index(['MedTibCart Volume', 'LatTibCart Surface'], dtype='object')
+{'accuracy': array([0.76923077]), 'f1_weighted': array([0.76923077]), 'f1': array([0.72727273]), 'roc_auc': array([0.72727273]), 'precision': array([0.72727273]), 'recall': array([0.72727273])}
+Elapsed time:  5.0921032428741455
+****************************************
+                 TESTING
+****************************************
+RandomForestClassifier..................................................
+Time for execution:  39
+Scoring ['Mean', 'Std']
+accuracy [0.78, 0.0789]
+f1_weighted [0.78, 0.0779]
+f1 [0.73, 0.0888]
+roc_auc [0.88, 0.058]
+precision [0.77, 0.1636]
+recall [0.73, 0.1274]
+test scores:  [0.7692307692307693, 0.7706043956043955, 0.7500000000000001, 0.9212121212121211, 0.6923076923076923, 0.8181818181818182]
+SVC..................................................
+Time for execution:  2
+Scoring ['Mean', 'Std']
+accuracy [0.83, 0.0762]
+f1_weighted [0.83, 0.0744]
+f1 [0.8, 0.0768]
+roc_auc [0.89, 0.0534]
+precision [0.81, 0.1405]
+recall [0.81, 0.0576]
+test scores:  [0.8461538461538461, 0.8461538461538461, 0.8181818181818182, 0.8727272727272728, 0.8181818181818182, 0.8181818181818182]
