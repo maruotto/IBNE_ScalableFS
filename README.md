@@ -7,11 +7,10 @@ This repository contains code for a feature selection pipeline designed for mach
 2. [Directory Structure](##directory-structure)
 3. [Installation](##installation)
 4. [Usage](##usage)
-5. [Configuration](##configuration)
-6. [Examples](##examples)
-7. [Citation](##citation)
-8. [Contributing](##contributing)
-9. [License](##license)
+5. [Examples](##examples)
+6. [Citation](##citation)
+7. [Contributing](##contributing)
+8. [License](##license)
 
 ## Overview
 
@@ -39,8 +38,8 @@ All feature selection logic is encapsulated in the `feature_selection` package, 
 To install dependencies, clone the repository and run:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/maruotto/IBNE_ScalableFS.git
+cd IBNE_ScalableFS
 pip install -r requirements.txt
 ```
 ## Usage
@@ -48,20 +47,9 @@ pip install -r requirements.txt
 To run the feature selection pipeline, use `pipeline.py` with parameters specified in cli, they are coded in `opt.py`. The only parameter that can't be controlled through the cli are the seeds in input to the algorithm. They are contained in `models.py`
 
 
-## Configuration
-
-The `opt.py` file includes key pipeline parameters, such as:
-
-* Dataset path
-* Model type
-* Feature selection method
-* Number of features to select
-* Evaluation metric
-
-
-
 ## Citation
-If you use this codebase in your research, please consider citing us. For further information, please write to ida23@ru.is
+If you use this codebase in your research, please consider citing us. 
+For further information, please write to ida23@ru.is
 
 
 ``` bibtex
