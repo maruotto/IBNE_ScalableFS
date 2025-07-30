@@ -1,7 +1,7 @@
 import argparse
 import os
 
-#python3 pipeline.py --subjects SINPAIN/labels.xlsx --biosignal cartilage --input_file SINPAIN/cartilages.xlsx --bioindex Category --out SINPAIN --proneness Analyze --pronidx 1 | tee SINPAIN/out_log/cartilage.log
+#python3 pipeline.py --subjects CT_radiomics_processed.xlsx --biosignal cartilage --input_file CT_radiomics_processed.xlsx --bioindex Category --out SINPAIN --proneness Analyze --pronidx 1 | tee SINPAIN/out_log/cartilage.log
 
 parser = argparse.ArgumentParser(description='Feature Selection')
 
@@ -30,7 +30,12 @@ parser.add_argument('--maxFeats', default=50, type=int,
                     help='maximum number of features used for the second part of feature selection')
 parser.add_argument('-p', '--maxFeatsPerc', action='store_true',
                     help='maximum number of features is intended as percentage')
+parser.add_argument('--validation', default=None, type=str,
+                    help='validation test excel file')
 
 opt = parser.parse_args()
 assert os.path.exists(opt.out), "Output path must exists. Check if the directory is created"
-assert opt.maxFeatsPerc <= 100
+assert opt.maxFeatsPerc <= 100, "Maximum number of features percentage must be less than or equal to 100"
+assert opt.maxFeats > 0, "Maximum number of features must be greater than 0"
+assert opt.test >= 0 and opt.test <= 1, "Test percentage must be between 0 and 1"  
+if opt.validation is not None: opt.test = 0.0

@@ -46,8 +46,9 @@ def pipeline_feature_selection_dataframes(subjects, biosignal,
 
     estimator = classifier(random_state=seed)
     estimator.fit(X_train, y_train)
-    scores = get_detailed_model_scores(estimator, X_test, y_test)
-    print(scores)
+    if test_percentage != 0.0:
+        scores = get_detailed_model_scores(estimator, X_test, y_test)
+        print(scores)
 
     selector = SelectFromModel(estimator=estimator, prefit=True, max_features=max_features)
     f1 = biosignal.columns[selector.get_support()]
@@ -65,10 +66,14 @@ def pipeline_feature_selection_dataframes(subjects, biosignal,
     new_biosignal = biosignal[biosignal.columns[selector.get_support()]]
     estimator = classifier(random_state=seed)
     X, y = create_dataset(subjects, new_biosignal, proneness, bio_index, proneness_level)
-    X_train, X_test, y_train, y_test, _ = test_split(X, y, seed, test_percentage, StandardScaler)
+    if test_percentage != 0.0:
+        X_train, X_test, y_train, y_test, _ = test_split(X, y, seed, test_percentage, StandardScaler)
+    else:
+        X_train, y_train = X.copy(), y.copy()
     estimator.fit(X_train, y_train)
-    scores = get_detailed_model_scores(estimator, X_test, y_test)
-    print(scores)
+    if test_percentage != 0.0:
+        scores = get_detailed_model_scores(estimator, X_test, y_test)
+        print(scores)
 
     print("*" * 40)
     print(" " * 3, "SFM+B-SFS PERFORMANCES")
@@ -84,7 +89,8 @@ def pipeline_feature_selection_dataframes(subjects, biosignal,
                                     cv=cv,
                                     n_jobs=None)
 
-    selected_features, (X_train_new, X_test_new, y_train_new, y_test_new) = train_models(sfs, subjects.loc[subjects.index],
+    if test_percentage != 0.0:
+        selected_features, (X_train_new, X_test_new, y_train_new, y_test_new) = train_models(sfs, subjects.loc[subjects.index],
                                                                                          biosignal=new_biosignal.loc[biosignal.index],
                                                                                          proneness=proneness,
                                                                                          bio_index=bio_index,
@@ -92,13 +98,25 @@ def pipeline_feature_selection_dataframes(subjects, biosignal,
                                                                                          test_percentage=test_percentage,
                                                                                          # cv = 5 by default
                                                                                          seed=seed)
+    else:
+
+        sfs.fit(X_train, y_train)
+
+        tmp_biosignal = new_biosignal.loc[biosignal.index]
+
+        selected_features = tmp_biosignal[tmp_biosignal.columns[sfs.get_support()]]
+        X_train_new, y_train_new = create_dataset(subjects, selected_features,
+                            proneness, bio_index, proneness_level)
+
+
 
     print(selected_features.columns)
 
     estimator = classifier(random_state=seed)
     estimator.fit(X_train_new, y_train_new)
-    scores = get_detailed_model_scores(estimator, X_test_new, y_test_new)
-    print(scores)
+    if test_percentage != 0.0:
+        scores = get_detailed_model_scores(estimator, X_test_new, y_test_new)
+        print(scores)
     end_time = time.time()
     print("Elapsed time: ", end_time - start_time)
 

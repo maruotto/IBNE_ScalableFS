@@ -42,39 +42,17 @@ from sklearn.exceptions import UndefinedMetricWarning
 warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
 print("IGNORING UNDEFINED METRIC WARNING")
 
-def extract_f6(all_features):
-    final_set = set()
-    for feature_set in all_features:
-        final_set.update(feature_set)
-    final_set = list(final_set)
-    for feat in final_set:
-        if feat not in all_features[1] or feat not in all_features[2]:
-            del final_set[final_set.index(feat)]
-    return final_set
-
-
-def get_features(features, all=True, quartile=75, column_name="Occurencies"):
-    if all:
-        return features.index
-
-    quart = np.percentile(features[column_name].to_list(), q=quartile)
-    a = features[features[column_name] >= quart]
-    return a.index
-
-
-def update_dictionary(di, lis):
-    for element in lis:
-        if element in di.keys():
-            di[element] = di[element] + 1
-        else:
-            di[element] = 1
-
 
 print("*" * 40)
 print(" " * 12, "SUBJECTS")
 print("*" * 40)
 print("Total subjects: ", len(subjects), "with", len(na_sub), "na patients")
 subjects=subjects.dropna()
+
+
+print("*" * 40)
+print(" " * 16, biosignal_name)
+print("*" * 40)
 
 if biosignal_name.startswith("ALL"):
     eeg_file = "eeg.xlsx"
@@ -86,15 +64,14 @@ else:
 
 if biosignal_name.endswith("LIFE"):
     get_biosignal_with_lifestyle(biosignal, subjects, proneness, proneness_level)
-
-print("*" * 40)
-print(" " * 16, biosignal_name)
-print("*" * 40)
-
+    
 print('correct imported samples:', len(biosignal.dropna()), '\nover a total of:', len(biosignal))
 biosignal = biosignal.dropna()
 if biosignal_name == "EEG":
     biosignal = biosignal[get_abs_rel_psd(biosignal)]
+
+
+
 
 X, y = create_dataset(subjects, biosignal, proneness, bio_index, proneness_level)
 
