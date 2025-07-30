@@ -2,6 +2,8 @@
 
 This repository contains code for a feature selection pipeline designed for machine learning tasks. The main entry point is `pipeline.py`, which leverages modular functions provided in the `feature_selection` package. Pipeline parameters are configured in `opt.py` and are passed as command-line arguments when executing the pipeline.
 
+The work has been published: check it out https://doi.org/10.1016/j.compbiomed.2025.110812.
+
 ## Table of Contents
 1. [Overview](##overview)
 2. [Directory Structure](##directory-structure)
@@ -48,11 +50,22 @@ To run the feature selection pipeline, use `pipeline.py` with parameters specifi
 
 
 ## Citation
-If you use this codebase in your research, please consider citing us. 
+If you use this codebase in your research, please consider citing us.
 For further information, please write to ida23@ru.is
 
 
-``` bibtex
+``` @article{MARUOTTO2025110812,
+title = {Feature Selection in Healthcare Datasets: Towards a Generalizable Solution},
+journal = {Computers in Biology and Medicine},
+volume = {196},
+pages = {110812},
+year = {2025},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2025.110812},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482525011631},
+author = {Ida Maruotto and Federica Kiyomi Ciliberti and Paolo Gargiulo and Marco Recenti},
+keywords = {Feature selection, Artificial intelligence, Machine learning, Dimensionality reduction, Healthcare dataset, Scalability, Biomedical signals},
+}
 ```
 
 By citing our work, you help support the open-source and academic community, making it easier for others to find and build on this project.
