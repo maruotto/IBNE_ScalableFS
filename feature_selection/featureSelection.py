@@ -36,6 +36,7 @@ def pipeline_feature_selection_dataframes(subjects, biosignal,
     print("*" * 40)
     print(" " * 12, "SEED", seed)
     print("*" * 40)
+    np.random.seed(seed=seed)
     X, y = create_dataset(subjects, biosignal, proneness, bio_index, proneness_level)
 
     print("*" * 40)
