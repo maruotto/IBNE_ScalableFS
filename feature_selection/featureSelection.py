@@ -86,7 +86,7 @@ def pipeline_feature_selection_dataframes(subjects, biosignal,
                                     n_features_to_select='auto',
                                     tol=-0.1, #negative because the direction is backward
                                     direction='backward',
-                                    scoring='f1',
+                                    scoring='f1', #TODO: comment if multiclass 
                                     cv=cv,
                                     n_jobs=None)
 
